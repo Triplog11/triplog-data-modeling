@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="정책은 뱃지 조건을 정의한다" directorySegmentName="seg_0" id="58DC3BE6-D159-A86D-0478-2191BA2A2922">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-15 05:10:24 UTC</createdTime>
+<ownerDesignName>conceptual_modeling</ownerDesignName>
+<engineerTo>
+<item key="505C3B4F-D999-97CE-DCB8-91900CAE459D" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B732F41C-6884-9FB9-FAF8-95248EDC4F39</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>493A85F6-2E31-AB4B-626B-16E6B19D2B12</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

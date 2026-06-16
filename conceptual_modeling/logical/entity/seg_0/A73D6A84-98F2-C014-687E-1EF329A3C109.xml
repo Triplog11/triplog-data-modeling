@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A73D6A84-98F2-C014-687E-1EF329A3C109" name="뱃지">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-15 04:58:30 UTC</createdTime>
+<ownerDesignName>conceptual_modeling</ownerDesignName>
+<engineerTo>
+<item key="505C3B4F-D999-97CE-DCB8-91900CAE459D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="뱃지 식별자" id="F99A2024-6DED-1DFC-B52F-4C030F09A581">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-15 04:58:36 UTC</createdTime>
+<ownerDesignName>conceptual_modeling</ownerDesignName>
+<engineerTo>
+<item key="505C3B4F-D999-97CE-DCB8-91900CAE459D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="뱃지명" id="E0A7D625-7132-817A-20E1-666905E5BE72">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-15 04:58:36 UTC</createdTime>
+<ownerDesignName>conceptual_modeling</ownerDesignName>
+<engineerTo>
+<item key="505C3B4F-D999-97CE-DCB8-91900CAE459D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="뱃지 이미지" id="802C8F4A-D3BD-39EE-9E35-48C68C1E95A4">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-15 04:58:37 UTC</createdTime>
+<ownerDesignName>conceptual_modeling</ownerDesignName>
+<engineerTo>
+<item key="505C3B4F-D999-97CE-DCB8-91900CAE459D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="뱃지 타입" id="CFC5D10F-FC05-20F7-8648-957A2A3DC247">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-15 04:58:37 UTC</createdTime>
+<ownerDesignName>conceptual_modeling</ownerDesignName>
+<engineerTo>
+<item key="505C3B4F-D999-97CE-DCB8-91900CAE459D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="획득 조건" id="6E1BC0DB-3ADE-AF09-126B-5D4CBDD775F5">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-15 04:58:38 UTC</createdTime>
+<ownerDesignName>conceptual_modeling</ownerDesignName>
+<engineerTo>
+<item key="505C3B4F-D999-97CE-DCB8-91900CAE459D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

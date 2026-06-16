@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3577DC43-EFBE-9ACA-6F01-94918829CB60" name="지역">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-15 04:52:00 UTC</createdTime>
+<ownerDesignName>conceptual_modeling</ownerDesignName>
+<engineerTo>
+<item key="505C3B4F-D999-97CE-DCB8-91900CAE459D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="지역 식별자" id="B12DD5E9-EE89-3EE7-64E8-3DC876986B6E">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-15 04:52:05 UTC</createdTime>
+<ownerDesignName>conceptual_modeling</ownerDesignName>
+<engineerTo>
+<item key="505C3B4F-D999-97CE-DCB8-91900CAE459D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="지역 설명" id="150BE844-F7BC-7088-2B1F-85CF0BB64F37">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-15 04:52:12 UTC</createdTime>
+<ownerDesignName>conceptual_modeling</ownerDesignName>
+<engineerTo>
+<item key="505C3B4F-D999-97CE-DCB8-91900CAE459D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="지역 방문 여부" id="FB136329-89CE-6A72-1816-03CCDBEC73A1">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-15 04:52:15 UTC</createdTime>
+<ownerDesignName>conceptual_modeling</ownerDesignName>
+<engineerTo>
+<item key="505C3B4F-D999-97CE-DCB8-91900CAE459D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="지역 법정동 코드" id="979B16AA-E912-66C0-0D29-D18488E5598A">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-15 04:52:16 UTC</createdTime>
+<ownerDesignName>conceptual_modeling</ownerDesignName>
+<engineerTo>
+<item key="505C3B4F-D999-97CE-DCB8-91900CAE459D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

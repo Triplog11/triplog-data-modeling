@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="이벤트는 리뷰를 가진다" directorySegmentName="seg_0" id="FE777A7B-E1A4-05CE-ECF9-D47C08E24E2A">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-15 05:06:15 UTC</createdTime>
+<ownerDesignName>conceptual_modeling</ownerDesignName>
+<engineerTo>
+<item key="505C3B4F-D999-97CE-DCB8-91900CAE459D" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>37F3A74E-514C-BADB-E130-6B939D3AB2C4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9BBB4AC7-FA0B-344B-3C98-CD49ECAC9006</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

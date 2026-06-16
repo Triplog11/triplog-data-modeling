@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="지역은 랜드마크를 포함한다" directorySegmentName="seg_0" id="FB35305E-EC5B-90D9-940C-15992A65AA58">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-15 05:04:53 UTC</createdTime>
+<ownerDesignName>conceptual_modeling</ownerDesignName>
+<engineerTo>
+<item key="505C3B4F-D999-97CE-DCB8-91900CAE459D" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3577DC43-EFBE-9ACA-6F01-94918829CB60</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BF9741CB-2756-2136-BF2E-D6E78EE6B2E5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

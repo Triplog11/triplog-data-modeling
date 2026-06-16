@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="회원은 북마크를 등록한다" directorySegmentName="seg_0" id="8B098E8F-E4FA-3A88-FBF5-097CF01A3EBE">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-15 05:07:28 UTC</createdTime>
+<ownerDesignName>conceptual_modeling</ownerDesignName>
+<engineerTo>
+<item key="505C3B4F-D999-97CE-DCB8-91900CAE459D" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>52AA0649-D4A2-995F-BA27-CCD7BC893A28</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6B05925F-2D39-7C2D-3CC8-0C18FC3A46BE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

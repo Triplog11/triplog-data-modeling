@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="회원은 회원통계를 가진다" directorySegmentName="seg_0" id="525939BB-A9AE-1486-B890-DAE5CA39913E">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-15 05:01:16 UTC</createdTime>
+<ownerDesignName>conceptual_modeling</ownerDesignName>
+<engineerTo>
+<item key="505C3B4F-D999-97CE-DCB8-91900CAE459D" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>52AA0649-D4A2-995F-BA27-CCD7BC893A28</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>820603F1-0184-A266-42B3-DC1E1EC71E38</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
