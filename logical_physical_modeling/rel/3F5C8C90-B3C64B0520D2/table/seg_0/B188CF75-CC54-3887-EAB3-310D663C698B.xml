@@ -21,8 +21,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
-<dataTypeSize>19</dataTypeSize>
-<ownDataTypeParameters>19,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementColumn>true</autoIncrementColumn>
 <identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -39,7 +38,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>36</dataTypeSize>
-<ownDataTypeParameters>36,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="85296DD9-DD36-0FCB-FB5C-B7404C9584C1" referredColumn="757AF12A-CC41-BFDC-EFE8-A069D533F3AD"/>
@@ -181,7 +180,17 @@
 <colUsage columnID="1761D6E0-A147-0262-915F-01DAB7A4D532"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="C04779D7-33E9-637C-8091-6D1C281A2D72" name="fk_stats_users">
+<ind_PK_UK id="3B60F3EF-A85B-78E5-86DB-E92DE6840A9C" name="uk_stats_users_id">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-17 03:53:16 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7FED0BBA-2D9E-C805-876A-E4CB716516C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C04779D7-33E9-637C-8091-6D1C281A2D72" name="fk_stats_usersv1">
 <sourceConnName>triplog_mysql</sourceConnName>
 <sourceObjSchema>triplog_reverse</sourceObjSchema>
 <sourceObjName>fk_stats_users</sourceObjName>

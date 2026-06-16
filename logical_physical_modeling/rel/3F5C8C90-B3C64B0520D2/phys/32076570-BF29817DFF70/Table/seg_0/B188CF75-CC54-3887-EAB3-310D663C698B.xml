@@ -62,7 +62,7 @@
 </ColumnProxy>
 </columnProxies>
 <indexProxies>
-<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="fk_stats_users" id="C04779D7-33E9-637C-8091-6D1C281A2D72">
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="fk_stats_usersv1" id="C04779D7-33E9-637C-8091-6D1C281A2D72">
 <createdBy>100gu</createdBy>
 <createdTime>2026-06-16 11:44:00 UTC</createdTime>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
@@ -83,4 +83,12 @@
 <indexSort>SORTED</indexSort>
 </PrimaryKey>
 </primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="uk_stats_users_id" id="3B60F3EF-A85B-78E5-86DB-E92DE6840A9C">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-17 03:53:16 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
 </TableProxyOraclev11g>
