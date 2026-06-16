@@ -1,0 +1,157 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7A80FD79-2BBC-31AF-B447-7EA213662AD5" name="리뷰">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:46:06 UTC</createdTime>
+<generatorID>C3B31D5C-4C2A-BC0A-773B-F7255DCF62FB</generatorID>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<engineerTo>
+<item key="3F5C8C90-A854-9586-1442-B3C64B0520D2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="리뷰 식별자" id="DCE83EF1-1DC8-2C6B-093E-E1FE79A3300C">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:46:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[리뷰 식별자]]></commentInRDBMS>
+<generatorID>FAFCEA75-E225-872D-05EB-BB79E41ED4B9</generatorID>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<engineerTo>
+<item key="3F5C8C90-A854-9586-1442-B3C64B0520D2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="유저 식별자" id="8EB27AE9-12C6-98C8-00C6-F2D509337EFD">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:46:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[유저 식별자]]></commentInRDBMS>
+<generatorID>0A54C8E6-E734-C0E8-A004-ACAB721CB72D</generatorID>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<engineerTo>
+<item key="3F5C8C90-A854-9586-1442-B3C64B0520D2" value="true"/>
+</engineerTo>
+<referedAttribute>99B6E830-8137-F07F-FC44-7DAA4507AEBE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>36</dataTypeSize>
+<ownDataTypeParameters>36,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="지역 식별자" id="7245CE7E-D6E7-5B6A-4F93-AD172493E55E">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:46:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[지역 식별자]]></commentInRDBMS>
+<generatorID>5D5682E8-BEFE-2E57-E2BE-B6A57CDA278E</generatorID>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<engineerTo>
+<item key="3F5C8C90-A854-9586-1442-B3C64B0520D2" value="true"/>
+</engineerTo>
+<referedAttribute>6DC6A5B2-913D-3C84-793B-8A081903BD3C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<dataTypeSize>19</dataTypeSize>
+<ownDataTypeParameters>19,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="이벤트 식별자" id="E9B08797-E548-8D87-BC9E-4B3C1C702408">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:46:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[이벤트 식별자]]></commentInRDBMS>
+<generatorID>00B38590-97BE-ECFD-4980-3DD81FD94256</generatorID>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<engineerTo>
+<item key="3F5C8C90-A854-9586-1442-B3C64B0520D2" value="true"/>
+</engineerTo>
+<referedAttribute>1FB0F7D8-F917-00C3-C949-707E32B0BC81</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<dataTypeSize>19</dataTypeSize>
+<ownDataTypeParameters>19,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="리뷰 제목" id="CC2479B2-D9F8-ABCA-F851-3C3B99458B9A">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:46:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[리뷰 제목]]></commentInRDBMS>
+<generatorID>920A4BA4-9C0F-DEC5-649B-48A2987150F4</generatorID>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<engineerTo>
+<item key="3F5C8C90-A854-9586-1442-B3C64B0520D2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="리뷰 내용" id="5713AE01-A00F-BC5A-8F5B-60282E9060AF">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:46:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[리뷰 내용]]></commentInRDBMS>
+<generatorID>DACC7296-7864-3C1B-39E1-A79481B306C2</generatorID>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<engineerTo>
+<item key="3F5C8C90-A854-9586-1442-B3C64B0520D2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="만족도" id="509CEFA9-8788-C247-E8D2-3E19E508FCB0">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:46:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[만족도]]></commentInRDBMS>
+<generatorID>3C523FBA-9B99-7C39-2D7E-09F50F171E3E</generatorID>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<engineerTo>
+<item key="3F5C8C90-A854-9586-1442-B3C64B0520D2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT022</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="리뷰 점수" id="6230D764-A823-949B-6002-1CEABFE05115">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:46:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[리뷰 점수]]></commentInRDBMS>
+<generatorID>AE29FDBB-0736-3839-05E3-0AE3669D2B8B</generatorID>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<engineerTo>
+<item key="3F5C8C90-A854-9586-1442-B3C64B0520D2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5D05D49D-2C87-9630-47CA-A405040C9448" name="PRIMARY">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:46:06 UTC</createdTime>
+<generatorID>F8B3D018-1FEA-CC54-C122-9BE62501566F</generatorID>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<engineerTo>
+<item key="3F5C8C90-A854-9586-1442-B3C64B0520D2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DCE83EF1-1DC8-2C6B-093E-E1FE79A3300C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,207 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B188CF75-CC54-3887-EAB3-310D663C698B" schemaObject="28DF9F4F-E1FF-5ADD-0AC5-AE851209928E" name="stats">
+<sourceConnName>triplog_mysql</sourceConnName>
+<sourceObjSchema>triplog_reverse</sourceObjSchema>
+<sourceObjName>stats</sourceObjName>
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="stats_id" id="1761D6E0-A147-0262-915F-01DAB7A4D532">
+<sourceConnName>triplog_mysql</sourceConnName>
+<sourceObjSchema>stats</sourceObjSchema>
+<sourceObjName>stats_id</sourceObjName>
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[상태 식별자]]></commentInRDBMS>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<dataTypeSize>19</dataTypeSize>
+<ownDataTypeParameters>19,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="users_id" id="7FED0BBA-2D9E-C805-876A-E4CB716516C9">
+<sourceConnName>triplog_mysql</sourceConnName>
+<sourceObjSchema>stats</sourceObjSchema>
+<sourceObjName>users_id</sourceObjName>
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[유저 식별자]]></commentInRDBMS>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>36</dataTypeSize>
+<ownDataTypeParameters>36,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="85296DD9-DD36-0FCB-FB5C-B7404C9584C1" referredColumn="757AF12A-CC41-BFDC-EFE8-A069D533F3AD"/>
+</associations>
+</Column>
+<Column name="address_si" id="478B46CA-3E3C-AF2B-4BF9-894FFF92D0B7">
+<sourceConnName>triplog_mysql</sourceConnName>
+<sourceObjSchema>stats</sourceObjSchema>
+<sourceObjName>address_si</sourceObjName>
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[시]]></commentInRDBMS>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address_do_gun" id="623C4D7A-E472-0041-34EF-1FBCABA2015F">
+<sourceConnName>triplog_mysql</sourceConnName>
+<sourceObjSchema>stats</sourceObjSchema>
+<sourceObjName>address_do_gun</sourceObjName>
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[도 / 군]]></commentInRDBMS>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address_gu" id="7A3AEBB3-08C8-500E-BA15-300A4DD8EAB0">
+<sourceConnName>triplog_mysql</sourceConnName>
+<sourceObjSchema>stats</sourceObjSchema>
+<sourceObjName>address_gu</sourceObjName>
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[구]]></commentInRDBMS>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="overall_score" id="08ABFACB-279E-1DA3-C0D9-240D3C6907A2">
+<sourceConnName>triplog_mysql</sourceConnName>
+<sourceObjSchema>stats</sourceObjSchema>
+<sourceObjName>overall_score</sourceObjName>
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[누적 스코어]]></commentInRDBMS>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="month_score" id="F258EB2C-E5E4-D3B0-16CE-301F562F8D9D">
+<sourceConnName>triplog_mysql</sourceConnName>
+<sourceObjSchema>stats</sourceObjSchema>
+<sourceObjName>month_score</sourceObjName>
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[월간 스코어]]></commentInRDBMS>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="current_tier" id="FC9CBC26-BA49-9363-CAFC-F2B89059E8B6">
+<sourceConnName>triplog_mysql</sourceConnName>
+<sourceObjSchema>stats</sourceObjSchema>
+<sourceObjName>current_tier</sourceObjName>
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[현재 티어]]></commentInRDBMS>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="stats_level" id="FD550361-2A94-0544-0D22-8E0AF1C766C5">
+<sourceConnName>triplog_mysql</sourceConnName>
+<sourceObjSchema>stats</sourceObjSchema>
+<sourceObjName>stats_level</sourceObjName>
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[현재 레벨]]></commentInRDBMS>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="stats_xp" id="158F046E-F43E-0B53-1EB4-DF93BF4BFE38">
+<sourceConnName>triplog_mysql</sourceConnName>
+<sourceObjSchema>stats</sourceObjSchema>
+<sourceObjName>stats_xp</sourceObjName>
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[현재 경험치]]></commentInRDBMS>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9E4DF3BB-FA82-6AFB-F88F-EB67E64BF69B" name="PRIMARYv16">
+<sourceConnName>triplog_mysql</sourceConnName>
+<sourceObjSchema>triplog_reverse</sourceObjSchema>
+<sourceObjName>PRIMARY</sourceObjName>
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1761D6E0-A147-0262-915F-01DAB7A4D532"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C04779D7-33E9-637C-8091-6D1C281A2D72" name="fk_stats_users">
+<sourceConnName>triplog_mysql</sourceConnName>
+<sourceObjSchema>triplog_reverse</sourceObjSchema>
+<sourceObjName>fk_stats_users</sourceObjName>
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7FED0BBA-2D9E-C805-876A-E4CB716516C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4E9DFDAD-D0B7-74D0-5FA5-095863D3D98E" name="fk_stats_users">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7FED0BBA-2D9E-C805-876A-E4CB716516C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4457407C-45F1-E274-05F4-2713234A37DB" name="권한">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:46:06 UTC</createdTime>
+<generatorID>227C892A-C796-7A0D-215B-3E37CCBE5C82</generatorID>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<engineerTo>
+<item key="3F5C8C90-A854-9586-1442-B3C64B0520D2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="권한 식별자" id="F8B82630-D4A7-B647-3D65-E9FA16C4E797">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:46:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[권한 식별자]]></commentInRDBMS>
+<generatorID>A303415D-AA00-C3D4-4EE9-F4666BEA209B</generatorID>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<engineerTo>
+<item key="3F5C8C90-A854-9586-1442-B3C64B0520D2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<dataTypeSize>19</dataTypeSize>
+<ownDataTypeParameters>19,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="권한 이름" id="40636133-9131-24E3-D0A8-5C34B5D55705">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:46:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[권한 이름]]></commentInRDBMS>
+<generatorID>A0F4AA8C-5671-077A-E450-7517174CFD12</generatorID>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<engineerTo>
+<item key="3F5C8C90-A854-9586-1442-B3C64B0520D2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="권한 설명" id="5471248B-9CD6-3A0A-6BE9-F9C7D5E82659">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:46:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[권한 설명]]></commentInRDBMS>
+<generatorID>0E920E9B-7B33-2F92-6908-A89220F9721D</generatorID>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<engineerTo>
+<item key="3F5C8C90-A854-9586-1442-B3C64B0520D2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9497343A-0DA7-88E6-7BBF-D2C34783156F" name="PRIMARY">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:46:06 UTC</createdTime>
+<generatorID>B6E1CC31-45AC-1F08-BAFA-3325E3D11A9F</generatorID>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<engineerTo>
+<item key="3F5C8C90-A854-9586-1442-B3C64B0520D2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F8B82630-D4A7-B647-3D65-E9FA16C4E797</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="60B3CEFB-7C9F-5C63-0C6A-D46B37133592" name="uk role name">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:46:06 UTC</createdTime>
+<generatorID>D5D3D715-EFC7-9A1A-B286-285A867233D0</generatorID>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<engineerTo>
+<item key="3F5C8C90-A854-9586-1442-B3C64B0520D2" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>40636133-9131-24E3-D0A8-5C34B5D55705</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

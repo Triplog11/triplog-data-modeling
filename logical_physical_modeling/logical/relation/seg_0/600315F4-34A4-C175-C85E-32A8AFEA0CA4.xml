@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_activity_policy_upper" directorySegmentName="seg_0" id="600315F4-34A4-C175-C85E-32A8AFEA0CA4">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:46:06 UTC</createdTime>
+<generatorID>82BE1E27-A95E-DA3C-8B7C-F618581F085A</generatorID>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<engineerTo>
+<item key="3F5C8C90-A854-9586-1442-B3C64B0520D2" value="true"/>
+</engineerTo>
+<targetPk>8E045F63-4734-09E5-28A1-3A37F01E83A3</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E22C54C7-9E20-4C6E-242A-58605DBB1AA9</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E22C54C7-9E20-4C6E-242A-58605DBB1AA9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>SET NULL</deleteRule>
+</Relation>

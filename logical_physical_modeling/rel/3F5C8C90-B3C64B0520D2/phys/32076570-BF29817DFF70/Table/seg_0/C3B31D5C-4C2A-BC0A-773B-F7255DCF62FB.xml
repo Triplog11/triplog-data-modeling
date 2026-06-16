@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="review" directorySegmentName="seg_0" id="C3B31D5C-4C2A-BC0A-773B-F7255DCF62FB">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<schemaObject>28DF9F4F-E1FF-5ADD-0AC5-AE851209928E</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="event_id" id="0B1CBA71-1DC0-29A1-7FA7-9CDB32EFC451">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="region_id" id="20B0C142-CEBB-8F05-C8D0-D5E4FB23A090">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="review_score" id="3C523FBA-9B99-7C39-2D7E-09F50F171E3E">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="review_title" id="920A4BA4-9C0F-DEC5-649B-48A2987150F4">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="review_point" id="AE29FDBB-0736-3839-05E3-0AE3669D2B8B">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="users_id" id="BCC4C0CD-0914-9EB6-A820-E74F4BD9AD17">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="review_content" id="DACC7296-7864-3C1B-39E1-A79481B306C2">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="review_id" id="FAFCEA75-E225-872D-05EB-BB79E41ED4B9">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="fk_review_event" id="17B0FC69-EEBC-3D3B-E9DE-B513F700BAAF">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="fk_review_users" id="AD9425EE-9C92-3818-905C-9DF5E3641EF8">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="fk_review_region" id="EE4692ED-0FCA-D7C1-5493-E3D0907E2B64">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="fk_review_region" id="1D90D9D9-8717-9FF6-C292-C32ABCDF0851">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="fk_review_event" id="E53B0F60-086D-639F-370F-A7E005CCF3A1">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="fk_review_users" id="F9E902E1-BC18-EFCA-B299-2DF6D31B2950">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PRIMARYv18" id="F8B3D018-1FEA-CC54-C122-9BE62501566F">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

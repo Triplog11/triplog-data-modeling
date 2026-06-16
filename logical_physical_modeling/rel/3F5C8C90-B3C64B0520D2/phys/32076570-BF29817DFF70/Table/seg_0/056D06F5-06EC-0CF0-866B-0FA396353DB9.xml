@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="appellation" directorySegmentName="seg_0" id="056D06F5-06EC-0CF0-866B-0FA396353DB9">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<schemaObject>28DF9F4F-E1FF-5ADD-0AC5-AE851209928E</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="appellation_operator" id="30246092-8D3E-5F4B-6FEA-A40C5C851196">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="appellation_id" id="50535206-35A8-1C5F-D85C-E219BF004A29">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="appellation_name" id="73E9CE09-C8D0-445A-1209-05AADE4B4FCB">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="appellation_group" id="77E45D19-2792-4CE7-F9D8-64C8D438547A">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="appellation_target" id="7C63BBFB-B302-68BE-A052-6B1824FA22D2">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="appellation_value" id="8AF87BBB-F9FC-55E0-33BE-7789AF5614F4">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="appellation_filter" id="AD6873A5-DDA8-E134-2280-E5FEE1996DFF">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="appellation_type" id="FF681B5F-BF73-1694-8974-1C6CFF934B19">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PRIMARY" id="9EE63972-A9F5-6CD3-4A2C-247AB04FD28D">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="uk_appellation_name" id="55BED65C-EA55-19C2-610E-723D1EE5B4F0">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev11g>

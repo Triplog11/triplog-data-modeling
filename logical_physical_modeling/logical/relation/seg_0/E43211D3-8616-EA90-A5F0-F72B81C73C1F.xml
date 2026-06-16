@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_notification_policy" directorySegmentName="seg_0" id="E43211D3-8616-EA90-A5F0-F72B81C73C1F">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:46:06 UTC</createdTime>
+<generatorID>7F82E28C-5266-BBD0-E3E1-D222A8526772</generatorID>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<engineerTo>
+<item key="3F5C8C90-A854-9586-1442-B3C64B0520D2" value="true"/>
+</engineerTo>
+<sourcePk>C696446D-2796-9F6D-1FEE-35BD0CA98425</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>03BD70A3-7163-C757-DDDA-852419668615</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A87A3B48-847C-28AF-1E3A-613824F9573A</targetEntity>
+<transferable>true</transferable>
+</Relation>

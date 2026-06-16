@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="2CD17CC7-32A1-2B14-ACE8-088D5CD8A050" mainViewID="0447D016-56DC-CA5A-5E7E-04194746DF5C">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 10:53:11 UTC</createdTime>
+<ownerDesignName>triplog_reverse_korean</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="128B41F0-A29C-0DC1-9B33-57120FB30057" schemaObject="28DF9F4F-E1FF-5ADD-0AC5-AE851209928E" name="landmark">
+<sourceConnName>triplog_mysql</sourceConnName>
+<sourceObjSchema>triplog_reverse</sourceObjSchema>
+<sourceObjName>landmark</sourceObjName>
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="landmark_id" id="C898926A-5F96-5AC4-EB15-84DDFF41C13D">
+<sourceConnName>triplog_mysql</sourceConnName>
+<sourceObjSchema>landmark</sourceObjSchema>
+<sourceObjName>landmark_id</sourceObjName>
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[랜드마크 식별자]]></commentInRDBMS>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<dataTypeSize>19</dataTypeSize>
+<ownDataTypeParameters>19,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="region_id" id="2DA9385D-1C12-9D1C-9AE4-20CF1687740C">
+<sourceConnName>triplog_mysql</sourceConnName>
+<sourceObjSchema>landmark</sourceObjSchema>
+<sourceObjName>region_id</sourceObjName>
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[지역 식별자]]></commentInRDBMS>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<dataTypeSize>19</dataTypeSize>
+<ownDataTypeParameters>19,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D1A447F1-9810-364F-8561-221E4AD3B0FA" referredColumn="D6E130A6-2707-56F9-27BE-D9934F72028E"/>
+</associations>
+</Column>
+<Column name="landmark_is_visited" id="01B9D071-1B79-8AC3-EEF2-EA8C26664ADC">
+<sourceConnName>triplog_mysql</sourceConnName>
+<sourceObjSchema>landmark</sourceObjSchema>
+<sourceObjName>landmark_is_visited</sourceObjName>
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[랜드마크 방문 여부]]></commentInRDBMS>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="content_id" id="79B1E545-8E05-24F6-6F4B-B7C64DDD99F9">
+<sourceConnName>triplog_mysql</sourceConnName>
+<sourceObjSchema>landmark</sourceObjSchema>
+<sourceObjName>content_id</sourceObjName>
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[tour api 식별자]]></commentInRDBMS>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="landmark_zipcode" id="8D06861D-8384-A69D-B7B6-27D70885A0BC">
+<sourceConnName>triplog_mysql</sourceConnName>
+<sourceObjSchema>landmark</sourceObjSchema>
+<sourceObjName>landmark_zipcode</sourceObjName>
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[랜드마크 법정동 코드]]></commentInRDBMS>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="541BE984-42A8-895A-A42E-043A9F6651C9" name="PRIMARYv1">
+<sourceConnName>triplog_mysql</sourceConnName>
+<sourceObjSchema>triplog_reverse</sourceObjSchema>
+<sourceObjName>PRIMARY</sourceObjName>
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C898926A-5F96-5AC4-EB15-84DDFF41C13D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="288B81DA-45DA-9772-4E6A-1ECC1A77FFF2" name="uk_landmark_content_id">
+<sourceConnName>triplog_mysql</sourceConnName>
+<sourceObjSchema>triplog_reverse</sourceObjSchema>
+<sourceObjName>uk_landmark_content_id</sourceObjName>
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="79B1E545-8E05-24F6-6F4B-B7C64DDD99F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F78E4D8E-AC78-9E0E-3EFB-90DE250DD002" name="fk_landmark_region">
+<sourceConnName>triplog_mysql</sourceConnName>
+<sourceObjSchema>triplog_reverse</sourceObjSchema>
+<sourceObjName>fk_landmark_region</sourceObjName>
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2DA9385D-1C12-9D1C-9AE4-20CF1687740C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7F5D5CE8-AF30-77E0-9940-7C1BC7209F78" name="fk_landmark_region">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2DA9385D-1C12-9D1C-9AE4-20CF1687740C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

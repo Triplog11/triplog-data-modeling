@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="44CD6CF8-304F-2462-963C-DD8B6E8008DC" containerWithKeyObject="8A1547F8-50B4-1915-39B3-C93323A857FC" localFKIndex="7F61FD2C-D174-3A00-1A85-B96F60EAF6B7" name="fk_level_policy_role_role">
+<sourceConnName>triplog_mysql</sourceConnName>
+<sourceObjSchema>triplog_reverse</sourceObjSchema>
+<sourceObjName>fk_level_policy_role_role</sourceObjName>
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<referredTableLongName>triplog_reverse.role</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>227C892A-C796-7A0D-215B-3E37CCBE5C82</referredTableID>
+<keyObject>B6E1CC31-45AC-1F08-BAFA-3325E3D11A9F</keyObject>
+<referredKeyID>B6E1CC31-45AC-1F08-BAFA-3325E3D11A9F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>role_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E00F7536-A869-0C14-C196-CFF5EA29C17C" schemaObject="28DF9F4F-E1FF-5ADD-0AC5-AE851209928E" name="bookmark">
+<sourceConnName>triplog_mysql</sourceConnName>
+<sourceObjSchema>triplog_reverse</sourceObjSchema>
+<sourceObjName>bookmark</sourceObjName>
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="bookmark_id" id="89E9FCA7-6E13-CD78-BF0F-CA1F370CD7A3">
+<sourceConnName>triplog_mysql</sourceConnName>
+<sourceObjSchema>bookmark</sourceObjSchema>
+<sourceObjName>bookmark_id</sourceObjName>
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[북마크 식별자]]></commentInRDBMS>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<dataTypeSize>19</dataTypeSize>
+<ownDataTypeParameters>19,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="users_id" id="EC5C069D-C5D4-97F9-31D2-6229DFC87082">
+<sourceConnName>triplog_mysql</sourceConnName>
+<sourceObjSchema>bookmark</sourceObjSchema>
+<sourceObjName>users_id</sourceObjName>
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[유저 식별자]]></commentInRDBMS>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>36</dataTypeSize>
+<ownDataTypeParameters>36,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ECFB9AF3-DE2B-7F19-055B-70A45A70AFF5" referredColumn="757AF12A-CC41-BFDC-EFE8-A069D533F3AD"/>
+</associations>
+</Column>
+<Column name="bookmark_type" id="38C9663D-23B3-523F-BA6F-273873A990BB">
+<sourceConnName>triplog_mysql</sourceConnName>
+<sourceObjSchema>bookmark</sourceObjSchema>
+<sourceObjName>bookmark_type</sourceObjName>
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[북마크 타입]]></commentInRDBMS>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bookmark_identifier" id="2AD907E6-CB1F-C124-E8E5-3CB846AE730A">
+<sourceConnName>triplog_mysql</sourceConnName>
+<sourceObjSchema>bookmark</sourceObjSchema>
+<sourceObjName>bookmark_identifier</sourceObjName>
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[북마크 타입 식별자]]></commentInRDBMS>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<dataTypeSize>19</dataTypeSize>
+<ownDataTypeParameters>19,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E472A140-6A07-7422-AAEA-D0BACC127B39" name="PRIMARYv22">
+<sourceConnName>triplog_mysql</sourceConnName>
+<sourceObjSchema>triplog_reverse</sourceObjSchema>
+<sourceObjName>PRIMARY</sourceObjName>
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89E9FCA7-6E13-CD78-BF0F-CA1F370CD7A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5E21EC20-5867-B011-92EE-9EEAFE58071B" name="uk_bookmark_users_target">
+<sourceConnName>triplog_mysql</sourceConnName>
+<sourceObjSchema>triplog_reverse</sourceObjSchema>
+<sourceObjName>uk_bookmark_users_target</sourceObjName>
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC5C069D-C5D4-97F9-31D2-6229DFC87082"/>
+<colUsage columnID="38C9663D-23B3-523F-BA6F-273873A990BB"/>
+<colUsage columnID="2AD907E6-CB1F-C124-E8E5-3CB846AE730A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="691019E3-BB61-5D1E-94E2-140D322B188E" name="fk_bookmark_users">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC5C069D-C5D4-97F9-31D2-6229DFC87082"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

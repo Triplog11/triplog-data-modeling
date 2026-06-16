@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A0792AE7-615F-C3D4-D833-F33225796188" containerWithKeyObject="529F4480-FC95-25EA-5CD1-1155BAFEAF28" localFKIndex="CE518980-0367-9A37-A1D0-367271EC4DD0" name="fk_users_badge_log_users_badge">
+<sourceConnName>triplog_mysql</sourceConnName>
+<sourceObjSchema>triplog_reverse</sourceObjSchema>
+<sourceObjName>fk_users_badge_log_users_badge</sourceObjName>
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<referredTableLongName>triplog_reverse.users_badge</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>D0F8AEF0-A8F1-971E-2762-D652E8A25F93</referredTableID>
+<keyObject>1121E4E2-A3A8-83EC-23BA-9993C08451D5</keyObject>
+<referredKeyID>1121E4E2-A3A8-83EC-23BA-9993C08451D5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>users_badge_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CA04E08A-6BDA-A795-C26C-3764C219EC32" schemaObject="28DF9F4F-E1FF-5ADD-0AC5-AE851209928E" name="activity_policy">
+<sourceConnName>triplog_mysql</sourceConnName>
+<sourceObjSchema>triplog_reverse</sourceObjSchema>
+<sourceObjName>activity_policy</sourceObjName>
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="activity_policy_id" id="FC42BC77-9681-0CAF-5CAF-8181BB249956">
+<sourceConnName>triplog_mysql</sourceConnName>
+<sourceObjSchema>activity_policy</sourceObjSchema>
+<sourceObjName>activity_policy_id</sourceObjName>
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[활동 정책 식별자]]></commentInRDBMS>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>36</dataTypeSize>
+<ownDataTypeParameters>36,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="upper_policy_id" id="E0AB22F0-4105-AF26-932D-05EA58EE6D9C">
+<sourceConnName>triplog_mysql</sourceConnName>
+<sourceObjSchema>activity_policy</sourceObjSchema>
+<sourceObjName>upper_policy_id</sourceObjName>
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[활동 정책 상위 policy_id]]></commentInRDBMS>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>36</dataTypeSize>
+<ownDataTypeParameters>36,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="82BE1E27-A95E-DA3C-8B7C-F618581F085A" referredColumn="FC42BC77-9681-0CAF-5CAF-8181BB249956"/>
+</associations>
+</Column>
+<Column name="policy_xp" id="056AD347-8BBF-501B-EED1-D6135DEB335D">
+<sourceConnName>triplog_mysql</sourceConnName>
+<sourceObjSchema>activity_policy</sourceObjSchema>
+<sourceObjName>policy_xp</sourceObjName>
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[활동 정책 경험치]]></commentInRDBMS>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="policy_score" id="A2F87AFC-3CAD-8834-2911-499A4798C8D0">
+<sourceConnName>triplog_mysql</sourceConnName>
+<sourceObjSchema>activity_policy</sourceObjSchema>
+<sourceObjName>policy_score</sourceObjName>
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[활동 정책 점수]]></commentInRDBMS>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="policy_description" id="6861749D-1A09-2E4F-5066-19F68AB4898E">
+<sourceConnName>triplog_mysql</sourceConnName>
+<sourceObjSchema>activity_policy</sourceObjSchema>
+<sourceObjName>policy_description</sourceObjName>
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[활동 정책 설명]]></commentInRDBMS>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2048</dataTypeSize>
+<ownDataTypeParameters>2048,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ADFAC7B8-A695-3A9E-E9DE-D5B4604EC2C1" name="PRIMARYv19">
+<sourceConnName>triplog_mysql</sourceConnName>
+<sourceObjSchema>triplog_reverse</sourceObjSchema>
+<sourceObjName>PRIMARY</sourceObjName>
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC42BC77-9681-0CAF-5CAF-8181BB249956"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CEA9CA11-BEB4-F4ED-B6F7-B81141DEE461" name="fk_activity_policy_upper">
+<sourceConnName>triplog_mysql</sourceConnName>
+<sourceObjSchema>triplog_reverse</sourceObjSchema>
+<sourceObjName>fk_activity_policy_upper</sourceObjName>
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E0AB22F0-4105-AF26-932D-05EA58EE6D9C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A744BBA9-FB21-1508-C137-EDE48A03D2D6" name="fk_activity_policy_upper">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E0AB22F0-4105-AF26-932D-05EA58EE6D9C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="triplog_reverse" directorySegmentName="seg_0" id="28DF9F4F-E1FF-5ADD-0AC5-AE851209928E">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<ownerDesignName>triplog_reverse_korean</ownerDesignName>
+</SchemaObject>

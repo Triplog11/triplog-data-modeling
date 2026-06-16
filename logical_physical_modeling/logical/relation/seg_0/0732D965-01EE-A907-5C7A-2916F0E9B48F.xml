@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_level_policy_role_role" directorySegmentName="seg_0" id="0732D965-01EE-A907-5C7A-2916F0E9B48F">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:46:06 UTC</createdTime>
+<generatorID>44CD6CF8-304F-2462-963C-DD8B6E8008DC</generatorID>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<engineerTo>
+<item key="3F5C8C90-A854-9586-1442-B3C64B0520D2" value="true"/>
+</engineerTo>
+<sourcePk>9497343A-0DA7-88E6-7BBF-D2C34783156F</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4457407C-45F1-E274-05F4-2713234A37DB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>84E59D05-E3E5-DF68-A819-65A510018AF6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

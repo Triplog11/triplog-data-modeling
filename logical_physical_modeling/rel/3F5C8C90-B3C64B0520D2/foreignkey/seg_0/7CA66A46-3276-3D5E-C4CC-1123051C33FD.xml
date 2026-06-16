@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7CA66A46-3276-3D5E-C4CC-1123051C33FD" containerWithKeyObject="C3B31D5C-4C2A-BC0A-773B-F7255DCF62FB" localFKIndex="E53B0F60-086D-639F-370F-A7E005CCF3A1" name="fk_review_event">
+<sourceConnName>triplog_mysql</sourceConnName>
+<sourceObjSchema>triplog_reverse</sourceObjSchema>
+<sourceObjName>fk_review_event</sourceObjName>
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<referredTableLongName>triplog_reverse.event</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>2F73B56B-7958-FB8B-9436-555D5A14EDE6</referredTableID>
+<keyObject>0F33B7E2-0CDA-9EC9-A643-600FB2711D13</keyObject>
+<referredKeyID>0F33B7E2-0CDA-9EC9-A643-600FB2711D13</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>event_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
