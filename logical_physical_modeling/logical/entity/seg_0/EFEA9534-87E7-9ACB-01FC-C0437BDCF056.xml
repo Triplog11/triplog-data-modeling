@@ -1,7 +1,7 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EFEA9534-87E7-9ACB-01FC-C0437BDCF056" name="유저 뱃지">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:46:06 UTC</createdTime>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
 <generatorID>D0F8AEF0-A8F1-971E-2762-D652E8A25F93</generatorID>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <engineerTo>
@@ -18,8 +18,8 @@
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="유저 뱃지 식별자" id="CCF60C19-8B4F-182D-1C47-1626596B5EBC">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:46:06 UTC</createdTime>
-<commentInRDBMS><![CDATA[유저 뱃지 식별자]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>유저 뱃지 식별자</commentInRDBMS>
 <generatorID>CFC4F91C-70AB-23FC-9270-D4D9C55E8CA9</generatorID>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <engineerTo>
@@ -31,43 +31,56 @@
 <dataTypeSize>19</dataTypeSize>
 <ownDataTypeParameters>19,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="유저 식별자" id="95EFE8FB-F142-BA13-4EDB-7DD0CC5964ED">
+<Attribute name="유저 식별자" id="259117CB-059A-47C5-9196-4863E782C884">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:46:06 UTC</createdTime>
-<commentInRDBMS><![CDATA[유저 식별자]]></commentInRDBMS>
-<generatorID>7D62DD05-0710-34E9-A9E4-FDE70C98641D</generatorID>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>유저 식별자</commentInRDBMS>
+<generatorID>806E9D19-8249-239B-EE83-4ACF3A7619D4</generatorID>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <engineerTo>
 <item key="3F5C8C90-A854-9586-1442-B3C64B0520D2" value="true"/>
 </engineerTo>
-<referedAttribute>99B6E830-8137-F07F-FC44-7DAA4507AEBE</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>36</dataTypeSize>
 <ownDataTypeParameters>36,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="뱃지 식별자" id="A931E720-802C-7DDD-03A3-C3F79126EB5E">
+<Attribute name="뱃지 식별자" id="81D1897A-98FF-4B14-8011-3BC6AE6AED48">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:46:06 UTC</createdTime>
-<commentInRDBMS><![CDATA[뱃지 식별자]]></commentInRDBMS>
-<generatorID>C1DC6BE9-D13E-F536-FFB7-FC5188723FF4</generatorID>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>뱃지 식별자</commentInRDBMS>
+<generatorID>D9B373B9-C76C-7EF8-C56B-630A4D7BB13C</generatorID>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <engineerTo>
 <item key="3F5C8C90-A854-9586-1442-B3C64B0520D2" value="true"/>
 </engineerTo>
-<referedAttribute>5C058816-062B-D9AD-F9E5-7E2E882A11C5</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
 <dataTypeSize>19</dataTypeSize>
 <ownDataTypeParameters>19,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="대표 뱃지 여보" id="C49E37D3-0D0E-4D4B-9478-EF015E0155D2">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>대표 뱃지 여보</commentInRDBMS>
+<generatorID>ED0F395A-AB84-4DEA-A819-EA7D32CEBB31</generatorID>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<engineerTo>
+<item key="3F5C8C90-A854-9586-1442-B3C64B0520D2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="0B004D37-C8FA-98F1-A2AE-E69130E9CF06" name="PRIMARY">
+<identifier id="D8803FB1-FC96-4FDA-8D51-27A68335E704" name="PRIMARY">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:46:06 UTC</createdTime>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
 <generatorID>1121E4E2-A3A8-83EC-23BA-9993C08451D5</generatorID>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <engineerTo>
@@ -76,19 +89,6 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>CCF60C19-8B4F-182D-1C47-1626596B5EBC</attributeRef>
-</usedAttributes>
-</identifier>
-<identifier id="E553CB70-6BE4-CCDA-9CDA-709B01B67E15" name="uk users badge">
-<createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:46:06 UTC</createdTime>
-<generatorID>B997F271-655C-E3E3-383A-1072A67C3B70</generatorID>
-<ownerDesignName>logical_physical_modeling</ownerDesignName>
-<engineerTo>
-<item key="3F5C8C90-A854-9586-1442-B3C64B0520D2" value="true"/>
-</engineerTo>
-<usedAttributes>
-<attributeRef>95EFE8FB-F142-BA13-4EDB-7DD0CC5964ED</attributeRef>
-<attributeRef>A931E720-802C-7DDD-03A3-C3F79126EB5E</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

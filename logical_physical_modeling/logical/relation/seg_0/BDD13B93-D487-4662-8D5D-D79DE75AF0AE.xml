@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_users_region_region" directorySegmentName="seg_0" id="BDD13B93-D487-4662-8D5D-D79DE75AF0AE">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<generatorID>6089192E-74EC-419D-A29F-0296F8FE0616</generatorID>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<engineerTo>
+<item key="3F5C8C90-A854-9586-1442-B3C64B0520D2" value="true"/>
+</engineerTo>
+<sourcePk>F5199C2D-9DAC-430A-BD59-742C0ACD22A9</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>41B779B9-A54D-2D39-0F14-D1B0A7FED392</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DFD412EF-44E8-44AD-AD64-9418252B7790</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

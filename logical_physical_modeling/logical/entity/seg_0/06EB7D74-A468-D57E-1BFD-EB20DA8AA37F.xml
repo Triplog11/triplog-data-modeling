@@ -1,7 +1,7 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="06EB7D74-A468-D57E-1BFD-EB20DA8AA37F" name="리뷰 로그">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:46:06 UTC</createdTime>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
 <generatorID>3BD821D1-CFC0-6276-AABA-C97C41A065C3</generatorID>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <engineerTo>
@@ -18,8 +18,8 @@
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="리뷰 로그 식별자" id="CC58A7D7-F4D8-ED39-E4E8-EAAD4B9F4DAE">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:46:06 UTC</createdTime>
-<commentInRDBMS><![CDATA[리뷰 로그 식별자]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>리뷰 로그 식별자</commentInRDBMS>
 <generatorID>0ACF31EF-C19F-FB25-6732-0ACEBD40BCCB</generatorID>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <engineerTo>
@@ -31,25 +31,25 @@
 <dataTypeSize>19</dataTypeSize>
 <ownDataTypeParameters>19,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="리뷰 식별자" id="E9121023-4B9C-B71F-3F17-2B8F5B91D5DD">
+<Attribute name="리뷰 식별자" id="798E21AB-CDB6-447D-A9A5-6EDD0523AB15">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:46:06 UTC</createdTime>
-<commentInRDBMS><![CDATA[리뷰 식별자]]></commentInRDBMS>
-<generatorID>99D26DF1-8CB3-602D-6F0F-CA96E694FF7A</generatorID>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>리뷰 식별자</commentInRDBMS>
+<generatorID>79765A40-B819-D47A-7C74-6D16A970F2FB</generatorID>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <engineerTo>
 <item key="3F5C8C90-A854-9586-1442-B3C64B0520D2" value="true"/>
 </engineerTo>
-<referedAttribute>DCE83EF1-1DC8-2C6B-093E-E1FE79A3300C</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>19</dataTypeSize>
+<ownDataTypeParameters>19,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="리뷰 생성일자" id="1199CC35-84B9-39FA-208E-479EBDEC1F3F">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:46:06 UTC</createdTime>
-<commentInRDBMS><![CDATA[리뷰 생성일자]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>리뷰 생성일자</commentInRDBMS>
 <generatorID>AE7816FA-310E-27AC-2A6C-B44733CE58B3</generatorID>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <engineerTo>
@@ -62,8 +62,8 @@
 </Attribute>
 <Attribute name="리뷰 로그 내용" id="78F9C060-F11B-1956-D327-61BE8BE66A23">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:46:06 UTC</createdTime>
-<commentInRDBMS><![CDATA[리뷰 로그 내용]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>리뷰 로그 내용</commentInRDBMS>
 <generatorID>A303E5E3-2B98-A389-42FD-68C68CA95B7A</generatorID>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <engineerTo>
@@ -75,11 +75,26 @@
 <dataTypeSize>500</dataTypeSize>
 <ownDataTypeParameters>500,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="리뷰 받은 경험치" id="E576A35F-3A10-4274-9A3D-33ACC55F1597">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>리뷰 받은 경험치</commentInRDBMS>
+<generatorID>F0D46F1E-6FA1-4EAB-BB5F-A7FBEAAF00F3</generatorID>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<engineerTo>
+<item key="3F5C8C90-A854-9586-1442-B3C64B0520D2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="CA96FD34-6F7D-1472-7389-9BC7B366B6FA" name="PRIMARY">
+<identifier id="4EF0CEFD-4830-4688-8901-181FAA39E630" name="PRIMARY">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:46:06 UTC</createdTime>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
 <generatorID>A21F7203-3E8C-C506-A7D7-A76A487850C0</generatorID>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <engineerTo>

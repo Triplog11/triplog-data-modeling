@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C08738AB-02E9-4774-9CCA-F949AFA31438" containerWithKeyObject="382AC59D-9611-A25A-F6CA-572595FECF0C" localFKIndex="221767CC-FB25-4428-9244-03695C5B3B8C" name="fk_notification_notification_policy">
+<sourceConnName>triplog_mysql</sourceConnName>
+<sourceObjSchema>triplog_reverse</sourceObjSchema>
+<sourceObjName>fk_notification_notification_policy</sourceObjName>
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<referredTableLongName>triplog_reverse.notification_policy</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>6BDF988C-D337-9359-0D57-3FD30DAA72C4</referredTableID>
+<keyObject>AC9671B7-C0EF-5620-4893-64DA1E33FB07</keyObject>
+<referredKeyID>AC9671B7-C0EF-5620-4893-64DA1E33FB07</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>notification_policy_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

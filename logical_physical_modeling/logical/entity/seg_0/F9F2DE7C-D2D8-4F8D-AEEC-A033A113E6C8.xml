@@ -1,7 +1,7 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F9F2DE7C-D2D8-4F8D-AEEC-A033A113E6C8" name="이벤트">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:46:06 UTC</createdTime>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
 <generatorID>2F73B56B-7958-FB8B-9436-555D5A14EDE6</generatorID>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <engineerTo>
@@ -18,8 +18,8 @@
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="이벤트 식별자" id="1FB0F7D8-F917-00C3-C949-707E32B0BC81">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:46:06 UTC</createdTime>
-<commentInRDBMS><![CDATA[이벤트 식별자]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>이벤트 식별자</commentInRDBMS>
 <generatorID>F8EEF06A-44C2-C10D-B8DC-8E8EC3136481</generatorID>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <engineerTo>
@@ -33,14 +33,14 @@
 </Attribute>
 <Attribute name="이벤트 시작일자" id="FF8B4C90-F17D-F265-B301-38F20EEF0FD1">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:46:06 UTC</createdTime>
-<commentInRDBMS><![CDATA[이벤트 시작일자]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>이벤트 시작일자</commentInRDBMS>
 <generatorID>88E5785D-9A50-EE1F-55BB-8F5A97AAB5DB</generatorID>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <engineerTo>
 <item key="3F5C8C90-A854-9586-1442-B3C64B0520D2" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<optional>true</optional>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
@@ -48,14 +48,14 @@
 </Attribute>
 <Attribute name="이벤트 종료일자" id="0F2492EE-2776-88DB-6A66-F66C9D2DCDA4">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:46:06 UTC</createdTime>
-<commentInRDBMS><![CDATA[이벤트 종료일자]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>이벤트 종료일자</commentInRDBMS>
 <generatorID>62963455-CDE3-6067-07A2-66B3676FBF1D</generatorID>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <engineerTo>
 <item key="3F5C8C90-A854-9586-1442-B3C64B0520D2" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<optional>true</optional>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
@@ -63,8 +63,8 @@
 </Attribute>
 <Attribute name="이벤트 제목" id="6E6C97EF-2917-8367-7561-96121EA86857">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:46:06 UTC</createdTime>
-<commentInRDBMS><![CDATA[이벤트 제목]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>이벤트 제목</commentInRDBMS>
 <generatorID>4122B9B1-887A-06C6-CFA3-1B4A7A4F7E8B</generatorID>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <engineerTo>
@@ -78,8 +78,8 @@
 </Attribute>
 <Attribute name="이벤트 내용" id="7395D4CD-4527-34B9-5856-54015A3F207F">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:46:06 UTC</createdTime>
-<commentInRDBMS><![CDATA[이벤트 내용]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>이벤트 내용</commentInRDBMS>
 <generatorID>2C56BF27-54C5-DE55-5D6C-3386A05135A2</generatorID>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <engineerTo>
@@ -93,8 +93,8 @@
 </Attribute>
 <Attribute name="이벤트 이미지 url 1" id="F019B68C-8BAF-9034-CAE4-C12F0726FB9D">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:46:06 UTC</createdTime>
-<commentInRDBMS><![CDATA[이벤트 이미지 url 1]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>이벤트 이미지 url 1</commentInRDBMS>
 <generatorID>4B9472F1-B16A-F811-9941-924834984918</generatorID>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <engineerTo>
@@ -108,8 +108,8 @@
 </Attribute>
 <Attribute name="이벤트 이미지 url 2" id="CD816EAA-E954-CC00-17BE-8F75EADDC166">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:46:06 UTC</createdTime>
-<commentInRDBMS><![CDATA[이벤트 이미지 url 2]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>이벤트 이미지 url 2</commentInRDBMS>
 <generatorID>26BA1946-49A0-F37B-6521-6096C4A31765</generatorID>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <engineerTo>
@@ -123,9 +123,9 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="A853D6C1-EC63-CB8C-83A9-BC02174451AC" name="PRIMARY">
+<identifier id="43536910-C0F7-4EBC-9FCD-73FCDE0E3583" name="PRIMARY">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:46:06 UTC</createdTime>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
 <generatorID>0F33B7E2-0CDA-9EC9-A643-600FB2711D13</generatorID>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <engineerTo>

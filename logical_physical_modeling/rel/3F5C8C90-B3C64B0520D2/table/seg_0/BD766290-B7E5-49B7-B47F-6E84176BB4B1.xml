@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BD766290-B7E5-49B7-B47F-6E84176BB4B1" schemaObject="28DF9F4F-E1FF-5ADD-0AC5-AE851209928E" name="users_card_landmark_log">
+<sourceConnName>triplog_mysql</sourceConnName>
+<sourceObjSchema>triplog_reverse</sourceObjSchema>
+<sourceObjName>users_card_landmark_log</sourceObjName>
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="users_card_landmark_log_id" id="9C3300CD-58AD-4DB4-9BC4-1D0211DAAD95">
+<sourceConnName>triplog_mysql</sourceConnName>
+<sourceObjSchema>users_card_landmark_log</sourceObjSchema>
+<sourceObjName>users_card_landmark_log_id</sourceObjName>
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>유저 카드 랜드마크 로그 식별자</commentInRDBMS>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<dataTypeSize>19</dataTypeSize>
+<ownDataTypeParameters>19,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="users_card_landmark_id" id="E4BB8E4A-D7A1-4679-91D7-B9ACA3A686DA">
+<sourceConnName>triplog_mysql</sourceConnName>
+<sourceObjSchema>users_card_landmark_log</sourceObjSchema>
+<sourceObjName>users_card_landmark_id</sourceObjName>
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>유저 카드 랜드마크 식별자</commentInRDBMS>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<dataTypeSize>19</dataTypeSize>
+<ownDataTypeParameters>19,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E774F47D-6E00-4FF9-BEB1-6F877E347009" referredColumn="DFF39367-BC1E-4D92-8809-1845D99CA216"/>
+</associations>
+</Column>
+<Column name="users_card_landmark_log_created_at" id="991C7451-EF67-49DF-BF85-9DC8DE3B2162">
+<sourceConnName>triplog_mysql</sourceConnName>
+<sourceObjSchema>users_card_landmark_log</sourceObjSchema>
+<sourceObjName>users_card_landmark_log_created_at</sourceObjName>
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>유저 카드 랜드마크  로그 생성일자</commentInRDBMS>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="users_card_landmark_log_content" id="37A404F6-5B32-4E22-850F-CAACF849FE12">
+<sourceConnName>triplog_mysql</sourceConnName>
+<sourceObjSchema>users_card_landmark_log</sourceObjSchema>
+<sourceObjName>users_card_landmark_log_content</sourceObjName>
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>유저 카드 랜드마크 로그 내용</commentInRDBMS>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="users_card_landmark_log_gain_xp" id="D4073F44-A031-49ED-8771-992A7E71C755">
+<sourceConnName>triplog_mysql</sourceConnName>
+<sourceObjSchema>users_card_landmark_log</sourceObjSchema>
+<sourceObjName>users_card_landmark_log_gain_xp</sourceObjName>
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>유저 카드 랜드마크 받은 경험치</commentInRDBMS>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DF51E5A6-530C-42A7-84AD-1C39820C2D9D" name="PRIMARY">
+<sourceConnName>triplog_mysql</sourceConnName>
+<sourceObjSchema>triplog_reverse</sourceObjSchema>
+<sourceObjName>PRIMARY</sourceObjName>
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C3300CD-58AD-4DB4-9BC4-1D0211DAAD95"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6061CC32-7EBD-43CC-A575-E0A5092BE79E" name="fk_users_card_landmark_log_users_card_landmark">
+<sourceConnName>triplog_mysql</sourceConnName>
+<sourceObjSchema>triplog_reverse</sourceObjSchema>
+<sourceObjName>fk_users_card_landmark_log_users_card_landmark</sourceObjName>
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E4BB8E4A-D7A1-4679-91D7-B9ACA3A686DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

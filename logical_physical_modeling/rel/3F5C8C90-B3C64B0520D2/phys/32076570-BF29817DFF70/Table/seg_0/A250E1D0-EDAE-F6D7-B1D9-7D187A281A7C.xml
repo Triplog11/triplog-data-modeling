@@ -1,80 +1,80 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="mission" directorySegmentName="seg_0" id="A250E1D0-EDAE-F6D7-B1D9-7D187A281A7C">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <schemaObject>28DF9F4F-E1FF-5ADD-0AC5-AE851209928E</schemaObject>
 <logging>YES</logging>
 <partitionedRowMovement>DISABLE</partitionedRowMovement>
 <temporaryChanged>false</temporaryChanged>
 <accessDriverType>oracle_loader</accessDriverType>
-<rejectLimit></rejectLimit>
+<rejectLimit/>
 <columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
-<ColumnProxy name="mission_week_start" id="0996CF62-2212-A1D8-6FFC-EEFE50E23483">
-<createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
-<ownerDesignName>logical_physical_modeling</ownerDesignName>
-</ColumnProxy>
 <ColumnProxy name="mission_id" id="29B1F803-A96F-0E77-0A07-36FF139D2A37">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
-<ownerDesignName>logical_physical_modeling</ownerDesignName>
-</ColumnProxy>
-<ColumnProxy name="mission_group" id="34B7E936-042C-2231-0F2E-656E29E42CFC">
-<createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
-<ownerDesignName>logical_physical_modeling</ownerDesignName>
-</ColumnProxy>
-<ColumnProxy name="mission_operator" id="35467BD7-4343-AAD2-F11F-1C6FB753CFA9">
-<createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
-<ownerDesignName>logical_physical_modeling</ownerDesignName>
-</ColumnProxy>
-<ColumnProxy name="mission_type" id="501C3E4B-59B6-CCA2-3F70-971CC6CAAC72">
-<createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
-<ownerDesignName>logical_physical_modeling</ownerDesignName>
-</ColumnProxy>
-<ColumnProxy name="mission_score" id="537F886B-888E-B0B6-4BC1-15C26DB19FC2">
-<createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
-<ownerDesignName>logical_physical_modeling</ownerDesignName>
-</ColumnProxy>
-<ColumnProxy name="mission_filter" id="5F99927C-A24C-ABD6-5F0B-4650F5DCF780">
-<createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
-<ownerDesignName>logical_physical_modeling</ownerDesignName>
-</ColumnProxy>
-<ColumnProxy name="mission_target" id="772215D2-5BDA-B783-A144-673798BF28F8">
-<createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 </ColumnProxy>
 <ColumnProxy name="mission_name" id="7E267125-AC3A-8204-DAA2-40DB956E1DFE">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="mission_xp" id="858A8322-66F3-C6A8-F5EE-B7A7CBC705AF">
+<ColumnProxy name="mission_group" id="34B7E936-042C-2231-0F2E-656E29E42CFC">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="mission_week_end" id="9FAE59DA-572F-0A69-1F3E-980EA5CDBD07">
+<ColumnProxy name="mission_type" id="501C3E4B-59B6-CCA2-3F70-971CC6CAAC72">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="mission_target" id="772215D2-5BDA-B783-A144-673798BF28F8">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="mission_operator" id="35467BD7-4343-AAD2-F11F-1C6FB753CFA9">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 </ColumnProxy>
 <ColumnProxy name="mission_value" id="EEA99B82-1B14-6712-1009-2C22C50713D0">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="mission_filter" id="5F99927C-A24C-ABD6-5F0B-4650F5DCF780">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="mission_week_start" id="0996CF62-2212-A1D8-6FFC-EEFE50E23483">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="mission_week_end" id="9FAE59DA-572F-0A69-1F3E-980EA5CDBD07">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="mission_score" id="537F886B-888E-B0B6-4BC1-15C26DB19FC2">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="mission_xp" id="858A8322-66F3-C6A8-F5EE-B7A7CBC705AF">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 </ColumnProxy>
 </columnProxies>
 <primaryKeys>
-<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PRIMARYv15" id="1D5CFA58-F578-E74F-9F91-2CAA69AF1537">
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PRIMARY" id="1D5CFA58-F578-E74F-9F91-2CAA69AF1537">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <indexSort>SORTED</indexSort>
 </PrimaryKey>

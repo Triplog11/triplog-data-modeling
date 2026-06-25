@@ -1,10 +1,10 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="382AC59D-9611-A25A-F6CA-572595FECF0C" schemaObject="28DF9F4F-E1FF-5ADD-0AC5-AE851209928E" name="notification">
 <sourceConnName>triplog_mysql</sourceConnName>
 <sourceObjSchema>triplog_reverse</sourceObjSchema>
 <sourceObjName>notification</sourceObjName>
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
@@ -15,8 +15,8 @@
 <sourceObjSchema>notification</sourceObjSchema>
 <sourceObjName>notification_id</sourceObjName>
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
-<commentInRDBMS><![CDATA[알림 식별자]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>알림 식별자</commentInRDBMS>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,8 +32,8 @@
 <sourceObjSchema>notification</sourceObjSchema>
 <sourceObjName>users_id</sourceObjName>
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
-<commentInRDBMS><![CDATA[유저 식별자]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>유저 식별자</commentInRDBMS>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -50,8 +50,8 @@
 <sourceObjSchema>notification</sourceObjSchema>
 <sourceObjName>notification_policy_id</sourceObjName>
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
-<commentInRDBMS><![CDATA[알림 정책 식별자]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>알림 정책 식별자</commentInRDBMS>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -60,7 +60,7 @@
 <ownDataTypeParameters>19,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="7F82E28C-5266-BBD0-E3E1-D222A8526772" referredColumn="5CA59748-7126-EA81-E36A-3D354CCC3F22"/>
+<colAssociation fkAssociation="C08738AB-02E9-4774-9CCA-F949AFA31438" referredColumn="5CA59748-7126-EA81-E36A-3D354CCC3F22"/>
 </associations>
 </Column>
 <Column name="notification_type" id="ACECA1A8-FFD8-21C0-75A5-07283E952375">
@@ -68,8 +68,8 @@
 <sourceObjSchema>notification</sourceObjSchema>
 <sourceObjName>notification_type</sourceObjName>
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
-<commentInRDBMS><![CDATA[알림 유형]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>알림 유형</commentInRDBMS>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -83,8 +83,8 @@
 <sourceObjSchema>notification</sourceObjSchema>
 <sourceObjName>notification_title</sourceObjName>
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
-<commentInRDBMS><![CDATA[알림 제목]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>알림 제목</commentInRDBMS>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -98,8 +98,8 @@
 <sourceObjSchema>notification</sourceObjSchema>
 <sourceObjName>notification_content</sourceObjName>
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
-<commentInRDBMS><![CDATA[알림 내용]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>알림 내용</commentInRDBMS>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -113,8 +113,8 @@
 <sourceObjSchema>notification</sourceObjSchema>
 <sourceObjName>notification_identifier</sourceObjName>
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
-<commentInRDBMS><![CDATA[관련 엔티티 ID]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>관련 엔티티 ID</commentInRDBMS>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -128,8 +128,8 @@
 <sourceObjSchema>notification</sourceObjSchema>
 <sourceObjName>target_type</sourceObjName>
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
-<commentInRDBMS><![CDATA[타겟 유형]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>타겟 유형</commentInRDBMS>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -143,8 +143,8 @@
 <sourceObjSchema>notification</sourceObjSchema>
 <sourceObjName>notification_data</sourceObjName>
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
-<commentInRDBMS><![CDATA[알림 추가 정보]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>알림 추가 정보</commentInRDBMS>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -157,8 +157,8 @@
 <sourceObjSchema>notification</sourceObjSchema>
 <sourceObjName>is_read</sourceObjName>
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
-<commentInRDBMS><![CDATA[읽음 여부]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>읽음 여부</commentInRDBMS>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -172,8 +172,8 @@
 <sourceObjSchema>notification</sourceObjSchema>
 <sourceObjName>notification_created_at</sourceObjName>
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
-<commentInRDBMS><![CDATA[알림 생성 날짜]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>알림 생성 날짜</commentInRDBMS>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -186,8 +186,8 @@
 <sourceObjSchema>notification</sourceObjSchema>
 <sourceObjName>read_at</sourceObjName>
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
-<commentInRDBMS><![CDATA[알림 읽은 날짜]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>알림 읽은 날짜</commentInRDBMS>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -198,12 +198,12 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="A66A7011-7CC9-182D-5D3D-E9BD516815AE" name="PRIMARYv5">
+<ind_PK_UK id="A66A7011-7CC9-182D-5D3D-E9BD516815AE" name="PRIMARY">
 <sourceConnName>triplog_mysql</sourceConnName>
 <sourceObjSchema>triplog_reverse</sourceObjSchema>
 <sourceObjName>PRIMARY</sourceObjName>
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
@@ -212,48 +212,30 @@
 <colUsage columnID="5C44ECBF-CD27-1FFF-CD5D-CB4E88923816"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="FA884C0C-0C0E-D795-FA82-4AFD32B55C31" name="fk_notification_policy">
-<sourceConnName>triplog_mysql</sourceConnName>
-<sourceObjSchema>triplog_reverse</sourceObjSchema>
-<sourceObjName>fk_notification_policy</sourceObjName>
-<createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
-<ownerDesignName>logical_physical_modeling</ownerDesignName>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="5699F743-0083-4E8C-08EC-2B83DFA7AE91"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="3ACC4E82-08B2-4388-5AA4-B6FD295EFEBC" name="fk_notification_users">
+<ind_PK_UK id="190B326D-3EBB-4D9B-4F59-4283BD541D20" name="fk_notification_users">
 <sourceConnName>triplog_mysql</sourceConnName>
 <sourceObjSchema>triplog_reverse</sourceObjSchema>
 <sourceObjName>fk_notification_users</sourceObjName>
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
+<indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="9FFA3DE0-1001-7BF6-82E9-8F3D9112053A"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="E76683E7-134E-7535-FEDD-DBEDE4C9A18B" name="fk_notification_policy">
+<ind_PK_UK id="221767CC-FB25-4428-9244-03695C5B3B8C" name="fk_notification_notification_policy">
+<sourceConnName>triplog_mysql</sourceConnName>
+<sourceObjSchema>triplog_reverse</sourceObjSchema>
+<sourceObjName>fk_notification_notification_policy</sourceObjName>
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="5699F743-0083-4E8C-08EC-2B83DFA7AE91"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="190B326D-3EBB-4D9B-4F59-4283BD541D20" name="fk_notification_users">
-<createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
-<ownerDesignName>logical_physical_modeling</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="9FFA3DE0-1001-7BF6-82E9-8F3D9112053A"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

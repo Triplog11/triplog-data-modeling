@@ -1,7 +1,7 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D08C8FBA-CEF5-1E80-7828-6B74DB94463B" name="유저 뱃지 로그">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:46:06 UTC</createdTime>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
 <generatorID>529F4480-FC95-25EA-5CD1-1155BAFEAF28</generatorID>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <engineerTo>
@@ -18,8 +18,8 @@
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="유저 뱃지 로그 식별자" id="E092476E-3133-74BB-2420-A414421864FA">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:46:06 UTC</createdTime>
-<commentInRDBMS><![CDATA[유저 뱃지 로그 식별자]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>유저 뱃지 로그 식별자</commentInRDBMS>
 <generatorID>8633A24B-ACD3-3B31-EFB4-8F3D4D650180</generatorID>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <engineerTo>
@@ -31,16 +31,15 @@
 <dataTypeSize>19</dataTypeSize>
 <ownDataTypeParameters>19,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="유저 뱃지 식별자" id="39DDFB81-B2DC-EA36-F434-D51E371BB19A">
+<Attribute name="유저 뱃지 식별자" id="4A7C1CDE-D92D-4266-AC98-6F038DDD2984">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:46:06 UTC</createdTime>
-<commentInRDBMS><![CDATA[유저 뱃지 식별자]]></commentInRDBMS>
-<generatorID>278D138B-B1D9-A841-C473-1CBBFABA43D6</generatorID>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>유저 뱃지 식별자</commentInRDBMS>
+<generatorID>F4D07F4F-3BA9-B8B8-E7D7-6A33D2B9D1D6</generatorID>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <engineerTo>
 <item key="3F5C8C90-A854-9586-1442-B3C64B0520D2" value="true"/>
 </engineerTo>
-<referedAttribute>CCF60C19-8B4F-182D-1C47-1626596B5EBC</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
@@ -49,8 +48,8 @@
 </Attribute>
 <Attribute name="유저 뱃지 로그 생성일자" id="342047E3-F752-3FCE-0FC2-2CCC03352628">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:46:06 UTC</createdTime>
-<commentInRDBMS><![CDATA[유저 뱃지 로그 생성일자]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>유저 뱃지 로그 생성일자</commentInRDBMS>
 <generatorID>1159DBBB-B1B8-5779-F7FA-6D6933B32A13</generatorID>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <engineerTo>
@@ -63,8 +62,8 @@
 </Attribute>
 <Attribute name="유저 뱃지 로그 내용" id="D4A9EFBF-DA1A-A2B2-96D9-5E6604E267E3">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:46:06 UTC</createdTime>
-<commentInRDBMS><![CDATA[유저 뱃지 로그 내용]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>유저 뱃지 로그 내용</commentInRDBMS>
 <generatorID>BC0413FB-DB49-CC9A-BB1E-7DF1E47B898E</generatorID>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <engineerTo>
@@ -76,11 +75,26 @@
 <dataTypeSize>500</dataTypeSize>
 <ownDataTypeParameters>500,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="받은 경험치" id="A9787377-9C67-42F4-A3E6-51FC29B06E6C">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>받은 경험치</commentInRDBMS>
+<generatorID>B1FC7CBD-8BD3-449C-BA3E-C7918551FAAA</generatorID>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<engineerTo>
+<item key="3F5C8C90-A854-9586-1442-B3C64B0520D2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="A4B952EF-5336-35AF-F213-1254B6E61501" name="PRIMARY">
+<identifier id="4FCB9371-7F68-4691-A2B9-D594C983D887" name="PRIMARY">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:46:06 UTC</createdTime>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
 <generatorID>5D2F9FBB-F374-4B54-FED3-614D0B06273F</generatorID>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <engineerTo>
