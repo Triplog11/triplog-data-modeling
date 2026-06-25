@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="32B80F53-259F-490B-AF8E-395A4D9ADCE7" name="유저 지역 로그">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<generatorID>5BBF8AD6-2C68-48E6-A866-01CA27CC68C7</generatorID>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<engineerTo>
+<item key="3F5C8C90-A854-9586-1442-B3C64B0520D2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="유저 지역 로그 식별자" id="1386F90C-5C6F-4D7B-B8A7-0BB4FC0C9B8D">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>유저 지역 로그 식별자</commentInRDBMS>
+<generatorID>2C0940A5-4002-4597-900E-E8CC80FAD5C1</generatorID>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<engineerTo>
+<item key="3F5C8C90-A854-9586-1442-B3C64B0520D2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<dataTypeSize>19</dataTypeSize>
+<ownDataTypeParameters>19,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="유저 지역 식별자" id="7989D947-C4B5-486A-99F6-AD1FA1456D1E">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>유저 지역 식별자</commentInRDBMS>
+<generatorID>DAA8FAB9-1C60-4664-A6F3-A3CE647BABF9</generatorID>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<engineerTo>
+<item key="3F5C8C90-A854-9586-1442-B3C64B0520D2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<dataTypeSize>19</dataTypeSize>
+<ownDataTypeParameters>19,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="유저 지역 로그 생성일자" id="85426981-E210-43CB-8B12-D34AC2532C92">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>유저 지역 로그 생성일자</commentInRDBMS>
+<generatorID>20606A33-A06C-436F-A181-6D5F23878A8F</generatorID>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<engineerTo>
+<item key="3F5C8C90-A854-9586-1442-B3C64B0520D2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="유저 지역 로그 내용" id="75E41FD9-BECE-4CA0-9521-E067E7098F4E">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>유저 지역 로그 내용</commentInRDBMS>
+<generatorID>910C5B75-336A-4D1E-AA08-71C580133433</generatorID>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<engineerTo>
+<item key="3F5C8C90-A854-9586-1442-B3C64B0520D2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="유저 지역 로그 받은 경험치" id="84123FBA-A62A-4A36-9FFD-F3B87A3B90BF">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>유저 지역 로그 받은 경험치</commentInRDBMS>
+<generatorID>AFFEC8B7-1388-428D-92D0-5B209D786D61</generatorID>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<engineerTo>
+<item key="3F5C8C90-A854-9586-1442-B3C64B0520D2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B67FC8E5-4AF8-4519-8B87-C097CFEDB55D" name="PRIMARY">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<generatorID>A60F216D-A0E8-48B8-AD3D-5B4340B5DA24</generatorID>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<engineerTo>
+<item key="3F5C8C90-A854-9586-1442-B3C64B0520D2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1386F90C-5C6F-4D7B-B8A7-0BB4FC0C9B8D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,7 +1,7 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FAFD7459-2676-D0B8-AA9A-CFB04E451667" name="레벨 정책">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:46:06 UTC</createdTime>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
 <generatorID>5BF24709-07A9-79C6-301E-8BF2FF1912D2</generatorID>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <engineerTo>
@@ -18,8 +18,8 @@
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="레벨 정책 식별자" id="FC2DB592-2BA2-128C-D6A4-18930C7538F1">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:46:06 UTC</createdTime>
-<commentInRDBMS><![CDATA[레벨 정책 식별자]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>레벨 정책 식별자</commentInRDBMS>
 <generatorID>FD008964-D656-3525-BD85-33C64C3FA9CF</generatorID>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <engineerTo>
@@ -33,8 +33,8 @@
 </Attribute>
 <Attribute name="레벨" id="E1F3CEA1-40ED-6416-2109-C2A411429108">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:46:06 UTC</createdTime>
-<commentInRDBMS><![CDATA[레벨]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>레벨</commentInRDBMS>
 <generatorID>B9979C92-C7D8-74C4-DC04-178F4E910FEA</generatorID>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <engineerTo>
@@ -48,8 +48,8 @@
 </Attribute>
 <Attribute name="레벨업 조건" id="38D76842-5671-BE46-0182-8683E4EF3C48">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:46:06 UTC</createdTime>
-<commentInRDBMS><![CDATA[레벨업 조건]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>레벨업 조건</commentInRDBMS>
 <generatorID>63B6ECFB-75FE-1158-5AA1-B7B294593ABF</generatorID>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <engineerTo>
@@ -63,9 +63,9 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="145F17EE-EBC0-E06E-0606-ABBC471EF27F" name="PRIMARY">
+<identifier id="8FACC069-26D3-4F5A-93F6-620F9502F20A" name="PRIMARY">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:46:06 UTC</createdTime>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
 <generatorID>E088EA60-8175-0299-E0CE-EF951679EC82</generatorID>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <engineerTo>
@@ -74,18 +74,6 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>FC2DB592-2BA2-128C-D6A4-18930C7538F1</attributeRef>
-</usedAttributes>
-</identifier>
-<identifier id="78884681-51AA-96AB-73F0-D0C3A07201FE" name="uk level policy number">
-<createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:46:06 UTC</createdTime>
-<generatorID>6A259774-9336-C545-377E-2F30DF121720</generatorID>
-<ownerDesignName>logical_physical_modeling</ownerDesignName>
-<engineerTo>
-<item key="3F5C8C90-A854-9586-1442-B3C64B0520D2" value="true"/>
-</engineerTo>
-<usedAttributes>
-<attributeRef>E1F3CEA1-40ED-6416-2109-C2A411429108</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

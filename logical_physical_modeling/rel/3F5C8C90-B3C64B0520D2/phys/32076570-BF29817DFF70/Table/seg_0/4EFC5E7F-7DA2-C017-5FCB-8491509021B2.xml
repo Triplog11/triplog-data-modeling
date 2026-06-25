@@ -1,69 +1,42 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="users_mission" directorySegmentName="seg_0" id="4EFC5E7F-7DA2-C017-5FCB-8491509021B2">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <schemaObject>28DF9F4F-E1FF-5ADD-0AC5-AE851209928E</schemaObject>
 <logging>YES</logging>
 <partitionedRowMovement>DISABLE</partitionedRowMovement>
 <temporaryChanged>false</temporaryChanged>
 <accessDriverType>oracle_loader</accessDriverType>
-<rejectLimit></rejectLimit>
+<rejectLimit/>
 <columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
-<ColumnProxy name="mission_id" id="2642582F-8AE0-720B-EC08-94706B67E8CC">
-<createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
-<ownerDesignName>logical_physical_modeling</ownerDesignName>
-</ColumnProxy>
 <ColumnProxy name="users_mission_id" id="4370659F-B258-A977-4F2C-F27F04D0A6FA">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
-<ownerDesignName>logical_physical_modeling</ownerDesignName>
-</ColumnProxy>
-<ColumnProxy name="users_mission_created_at" id="7FF3D905-F390-99F6-E31B-91308B84DEB2">
-<createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 </ColumnProxy>
 <ColumnProxy name="users_id" id="C0CE8AC5-4DD7-DAB3-78B6-5FFB5207DCE0">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="mission_id" id="2642582F-8AE0-720B-EC08-94706B67E8CC">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="users_mission_created_at" id="7FF3D905-F390-99F6-E31B-91308B84DEB2">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 </ColumnProxy>
 </columnProxies>
-<indexProxies>
-<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="fk_users_mission_mission" id="F2BE7C81-8575-C238-2351-7830B2DB93B0">
-<createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
-<ownerDesignName>logical_physical_modeling</ownerDesignName>
-</IndexProxy>
-</indexProxies>
-<foreignKeys>
-<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="fk_users_mission_mission" id="26B50308-D203-0031-1884-C1934FB7B762">
-<createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
-<ownerDesignName>logical_physical_modeling</ownerDesignName>
-</ForeignKey>
-<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="fk_users_mission_users" id="80BB289C-4333-C8B3-86AB-54FE039B26CF">
-<createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
-<ownerDesignName>logical_physical_modeling</ownerDesignName>
-</ForeignKey>
-</foreignKeys>
 <primaryKeys>
-<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PRIMARYv8" id="C98C82D5-1E65-4589-9AAE-31AB19E72BDF">
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PRIMARY" id="C98C82D5-1E65-4589-9AAE-31AB19E72BDF">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <indexSort>SORTED</indexSort>
 </PrimaryKey>
 </primaryKeys>
-<uniqueKeys>
-<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="uk_users_mission" id="7775AA4B-9379-A7F2-39CA-1939E1806231">
-<createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
-<ownerDesignName>logical_physical_modeling</ownerDesignName>
-<indexSort>SORTED</indexSort>
-</UniqueKey>
-</uniqueKeys>
 </TableProxyOraclev11g>

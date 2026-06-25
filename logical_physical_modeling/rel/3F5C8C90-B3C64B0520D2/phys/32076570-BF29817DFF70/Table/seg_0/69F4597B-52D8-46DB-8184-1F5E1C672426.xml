@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="users_level_log" directorySegmentName="seg_0" id="69F4597B-52D8-46DB-8184-1F5E1C672426">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<schemaObject>28DF9F4F-E1FF-5ADD-0AC5-AE851209928E</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit/>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="level_log_id" id="5B98B0A4-C5A3-4DAA-BDB3-1969DE6864AA">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="users_id" id="EAED06E2-E7E3-47EF-8AA2-50F493386E85">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="level_log_created_at" id="CC6A66A3-E05D-4E97-9C1D-C2107154FF3C">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="users_level_log_gain_xp" id="C71D06DB-928E-4941-8637-A801E7D1EB8F">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="users_level_content" id="553BAEA2-CC0C-4C76-AEAD-383FA4BF9DC6">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PRIMARY" id="0709EB68-12E8-41A7-8BFD-91E3FB17EE71">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

@@ -1,7 +1,7 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="41B779B9-A54D-2D39-0F14-D1B0A7FED392" name="지역">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:46:06 UTC</createdTime>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
 <generatorID>3EE2A641-7969-D866-493B-1FEB9608DF54</generatorID>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <engineerTo>
@@ -18,8 +18,8 @@
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="지역 식별자" id="6DC6A5B2-913D-3C84-793B-8A081903BD3C">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:46:06 UTC</createdTime>
-<commentInRDBMS><![CDATA[지역 식별자]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>지역 식별자</commentInRDBMS>
 <generatorID>D6E130A6-2707-56F9-27BE-D9934F72028E</generatorID>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <engineerTo>
@@ -31,41 +31,25 @@
 <dataTypeSize>19</dataTypeSize>
 <ownDataTypeParameters>19,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="유저 식별자" id="719C6DE8-F72F-9D51-07B3-3A16202D512A">
+<Attribute name="지역 이름" id="35E715F2-FFA0-4C45-8C9C-9EB3E2993DCA">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:46:06 UTC</createdTime>
-<commentInRDBMS><![CDATA[유저 식별자]]></commentInRDBMS>
-<generatorID>B930E19C-0F57-A0BC-C152-50779F40C4EA</generatorID>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>지역 이름</commentInRDBMS>
+<generatorID>E890BF3F-E33D-4BFF-B777-FE091AC4FD41</generatorID>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <engineerTo>
 <item key="3F5C8C90-A854-9586-1442-B3C64B0520D2" value="true"/>
 </engineerTo>
-<referedAttribute>99B6E830-8137-F07F-FC44-7DAA4507AEBE</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>36</dataTypeSize>
-<ownDataTypeParameters>36,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="지역 방문여부" id="1BE793FD-E211-2953-9C3D-4CA9AE22E471">
-<createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:46:06 UTC</createdTime>
-<commentInRDBMS><![CDATA[지역 방문여부]]></commentInRDBMS>
-<generatorID>0625A7A9-D4DC-551F-EC64-5FD311D53A67</generatorID>
-<ownerDesignName>logical_physical_modeling</ownerDesignName>
-<engineerTo>
-<item key="3F5C8C90-A854-9586-1442-B3C64B0520D2" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT034</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="지역 설명" id="6D3D5929-3F9E-71DC-B28B-FDAEB0837B3E">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:46:06 UTC</createdTime>
-<commentInRDBMS><![CDATA[지역 설명]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>지역 설명</commentInRDBMS>
 <generatorID>F7EDF24A-0443-7C73-705F-DC4CEFE54997</generatorID>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <engineerTo>
@@ -78,8 +62,8 @@
 </Attribute>
 <Attribute name="지역 법정동 코드" id="55E4B3E8-A4D0-0842-A8F7-3BB560451E63">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:46:06 UTC</createdTime>
-<commentInRDBMS><![CDATA[지역 법정동 코드]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>지역 법정동 코드</commentInRDBMS>
 <generatorID>C2147B83-268C-8BFC-40D5-849DACE4B071</generatorID>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <engineerTo>
@@ -93,9 +77,9 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="224BA9F6-3306-CE01-B624-EDE029DBB36E" name="PRIMARY">
+<identifier id="F5199C2D-9DAC-430A-BD59-742C0ACD22A9" name="PRIMARY">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:46:06 UTC</createdTime>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
 <generatorID>2DB620CD-94F7-F14E-F69A-73CEE3C56EEC</generatorID>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <engineerTo>

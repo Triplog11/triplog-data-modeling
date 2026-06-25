@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A75AB499-B779-47E6-80F9-4415923D2294" containerWithKeyObject="69F4597B-52D8-46DB-8184-1F5E1C672426" localFKIndex="1D8C74CB-2E0F-4669-B2C4-7AF75BBE8029" name="fk_users_level_log_users">
+<sourceConnName>triplog_mysql</sourceConnName>
+<sourceObjSchema>triplog_reverse</sourceObjSchema>
+<sourceObjName>fk_users_level_log_users</sourceObjName>
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<referredTableLongName>triplog_reverse.users</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>348901E8-4AD9-4074-D743-B619B843A96A</referredTableID>
+<keyObject>57E4238C-A55D-39D2-77F1-92CA85526685</keyObject>
+<referredKeyID>57E4238C-A55D-39D2-77F1-92CA85526685</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>users_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

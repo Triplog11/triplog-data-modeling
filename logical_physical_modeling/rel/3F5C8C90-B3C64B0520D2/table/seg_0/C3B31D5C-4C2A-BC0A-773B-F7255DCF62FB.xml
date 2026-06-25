@@ -1,10 +1,10 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C3B31D5C-4C2A-BC0A-773B-F7255DCF62FB" schemaObject="28DF9F4F-E1FF-5ADD-0AC5-AE851209928E" name="review">
 <sourceConnName>triplog_mysql</sourceConnName>
 <sourceObjSchema>triplog_reverse</sourceObjSchema>
 <sourceObjName>review</sourceObjName>
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
@@ -15,8 +15,8 @@
 <sourceObjSchema>review</sourceObjSchema>
 <sourceObjName>review_id</sourceObjName>
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
-<commentInRDBMS><![CDATA[리뷰 식별자]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>리뷰 식별자</commentInRDBMS>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,8 +32,8 @@
 <sourceObjSchema>review</sourceObjSchema>
 <sourceObjName>users_id</sourceObjName>
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
-<commentInRDBMS><![CDATA[유저 식별자]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>유저 식별자</commentInRDBMS>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -50,8 +50,8 @@
 <sourceObjSchema>review</sourceObjSchema>
 <sourceObjName>region_id</sourceObjName>
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
-<commentInRDBMS><![CDATA[지역 식별자]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>지역 식별자</commentInRDBMS>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -68,8 +68,8 @@
 <sourceObjSchema>review</sourceObjSchema>
 <sourceObjName>event_id</sourceObjName>
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
-<commentInRDBMS><![CDATA[이벤트 식별자]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>이벤트 식별자</commentInRDBMS>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -86,8 +86,8 @@
 <sourceObjSchema>review</sourceObjSchema>
 <sourceObjName>review_title</sourceObjName>
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
-<commentInRDBMS><![CDATA[리뷰 제목]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>리뷰 제목</commentInRDBMS>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -101,8 +101,8 @@
 <sourceObjSchema>review</sourceObjSchema>
 <sourceObjName>review_content</sourceObjName>
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
-<commentInRDBMS><![CDATA[리뷰 내용]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>리뷰 내용</commentInRDBMS>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -116,8 +116,8 @@
 <sourceObjSchema>review</sourceObjSchema>
 <sourceObjName>review_score</sourceObjName>
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
-<commentInRDBMS><![CDATA[만족도]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>만족도</commentInRDBMS>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -131,8 +131,8 @@
 <sourceObjSchema>review</sourceObjSchema>
 <sourceObjName>review_point</sourceObjName>
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
-<commentInRDBMS><![CDATA[리뷰 점수]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>리뷰 점수</commentInRDBMS>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -143,12 +143,12 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="F8B3D018-1FEA-CC54-C122-9BE62501566F" name="PRIMARYv18">
+<ind_PK_UK id="F8B3D018-1FEA-CC54-C122-9BE62501566F" name="PRIMARY">
 <sourceConnName>triplog_mysql</sourceConnName>
 <sourceObjSchema>triplog_reverse</sourceObjSchema>
 <sourceObjName>PRIMARY</sourceObjName>
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
@@ -157,55 +157,25 @@
 <colUsage columnID="FAFCEA75-E225-872D-05EB-BB79E41ED4B9"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="17B0FC69-EEBC-3D3B-E9DE-B513F700BAAF" name="fk_review_event">
-<sourceConnName>triplog_mysql</sourceConnName>
-<sourceObjSchema>triplog_reverse</sourceObjSchema>
-<sourceObjName>fk_review_event</sourceObjName>
-<createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
-<ownerDesignName>logical_physical_modeling</ownerDesignName>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="0B1CBA71-1DC0-29A1-7FA7-9CDB32EFC451"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="EE4692ED-0FCA-D7C1-5493-E3D0907E2B64" name="fk_review_region">
-<sourceConnName>triplog_mysql</sourceConnName>
-<sourceObjSchema>triplog_reverse</sourceObjSchema>
-<sourceObjName>fk_review_region</sourceObjName>
-<createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
-<ownerDesignName>logical_physical_modeling</ownerDesignName>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="20B0C142-CEBB-8F05-C8D0-D5E4FB23A090"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="AD9425EE-9C92-3818-905C-9DF5E3641EF8" name="fk_review_users">
+<ind_PK_UK id="F9E902E1-BC18-EFCA-B299-2DF6D31B2950" name="fk_review_users">
 <sourceConnName>triplog_mysql</sourceConnName>
 <sourceObjSchema>triplog_reverse</sourceObjSchema>
 <sourceObjName>fk_review_users</sourceObjName>
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
+<indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="BCC4C0CD-0914-9EB6-A820-E74F4BD9AD17"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="E53B0F60-086D-639F-370F-A7E005CCF3A1" name="fk_review_event">
-<createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
-<ownerDesignName>logical_physical_modeling</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="0B1CBA71-1DC0-29A1-7FA7-9CDB32EFC451"/>
-</indexColumnUsage>
-</ind_PK_UK>
 <ind_PK_UK id="1D90D9D9-8717-9FF6-C292-C32ABCDF0851" name="fk_review_region">
+<sourceConnName>triplog_mysql</sourceConnName>
+<sourceObjSchema>triplog_reverse</sourceObjSchema>
+<sourceObjName>fk_review_region</sourceObjName>
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
@@ -213,14 +183,17 @@
 <colUsage columnID="20B0C142-CEBB-8F05-C8D0-D5E4FB23A090"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="F9E902E1-BC18-EFCA-B299-2DF6D31B2950" name="fk_review_users">
+<ind_PK_UK id="E53B0F60-086D-639F-370F-A7E005CCF3A1" name="fk_review_event">
+<sourceConnName>triplog_mysql</sourceConnName>
+<sourceObjSchema>triplog_reverse</sourceObjSchema>
+<sourceObjName>fk_review_event</sourceObjName>
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="BCC4C0CD-0914-9EB6-A820-E74F4BD9AD17"/>
+<colUsage columnID="0B1CBA71-1DC0-29A1-7FA7-9CDB32EFC451"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

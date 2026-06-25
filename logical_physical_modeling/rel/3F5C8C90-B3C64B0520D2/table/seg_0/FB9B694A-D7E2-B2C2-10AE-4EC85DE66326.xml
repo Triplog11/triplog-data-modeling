@@ -1,10 +1,10 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FB9B694A-D7E2-B2C2-10AE-4EC85DE66326" schemaObject="28DF9F4F-E1FF-5ADD-0AC5-AE851209928E" name="image">
 <sourceConnName>triplog_mysql</sourceConnName>
 <sourceObjSchema>triplog_reverse</sourceObjSchema>
 <sourceObjName>image</sourceObjName>
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
@@ -15,8 +15,8 @@
 <sourceObjSchema>image</sourceObjSchema>
 <sourceObjName>image_id</sourceObjName>
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
-<commentInRDBMS><![CDATA[이미지 식별자]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>이미지 식별자</commentInRDBMS>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,8 +32,8 @@
 <sourceObjSchema>image</sourceObjSchema>
 <sourceObjName>review_id</sourceObjName>
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
-<commentInRDBMS><![CDATA[리뷰 식별자]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>리뷰 식별자</commentInRDBMS>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -50,8 +50,8 @@
 <sourceObjSchema>image</sourceObjSchema>
 <sourceObjName>original_name</sourceObjName>
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
-<commentInRDBMS><![CDATA[실제 파일명]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>실제 파일명</commentInRDBMS>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -65,8 +65,8 @@
 <sourceObjSchema>image</sourceObjSchema>
 <sourceObjName>saved_name</sourceObjName>
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
-<commentInRDBMS><![CDATA[난수화된 파일명]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>난수화된 파일명</commentInRDBMS>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -80,8 +80,8 @@
 <sourceObjSchema>image</sourceObjSchema>
 <sourceObjName>image_url</sourceObjName>
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
-<commentInRDBMS><![CDATA[이미지 url]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>이미지 url</commentInRDBMS>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -95,8 +95,8 @@
 <sourceObjSchema>image</sourceObjSchema>
 <sourceObjName>file_size</sourceObjName>
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
-<commentInRDBMS><![CDATA[파일 용량]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>파일 용량</commentInRDBMS>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -110,8 +110,8 @@
 <sourceObjSchema>image</sourceObjSchema>
 <sourceObjName>image_created_at</sourceObjName>
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
-<commentInRDBMS><![CDATA[이미지 생성일자]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>이미지 생성일자</commentInRDBMS>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -121,12 +121,12 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="4089D2F8-069E-4D2D-7BB2-4A9BDD2D3B8B" name="PRIMARYv23">
+<ind_PK_UK id="4089D2F8-069E-4D2D-7BB2-4A9BDD2D3B8B" name="PRIMARY">
 <sourceConnName>triplog_mysql</sourceConnName>
 <sourceObjSchema>triplog_reverse</sourceObjSchema>
 <sourceObjName>PRIMARY</sourceObjName>
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
@@ -135,21 +135,12 @@
 <colUsage columnID="1CC154F7-1539-CE23-6E7C-06544CB465C0"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="B26B615E-5F93-B363-41FD-B5E77D6943CF" name="fk_image_review">
+<ind_PK_UK id="43115F3E-DC7D-AC9E-F522-A14B63C281B8" name="fk_image_review">
 <sourceConnName>triplog_mysql</sourceConnName>
 <sourceObjSchema>triplog_reverse</sourceObjSchema>
 <sourceObjName>fk_image_review</sourceObjName>
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
-<ownerDesignName>logical_physical_modeling</ownerDesignName>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="D3633EC2-52A0-4616-E2BE-234547E9466E"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="43115F3E-DC7D-AC9E-F522-A14B63C281B8" name="fk_image_review">
-<createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>

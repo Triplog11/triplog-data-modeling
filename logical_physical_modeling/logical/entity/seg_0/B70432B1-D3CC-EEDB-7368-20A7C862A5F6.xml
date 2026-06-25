@@ -1,7 +1,7 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B70432B1-D3CC-EEDB-7368-20A7C862A5F6" name="유저 통계">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:46:06 UTC</createdTime>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
 <generatorID>B188CF75-CC54-3887-EAB3-310D663C698B</generatorID>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <engineerTo>
@@ -18,8 +18,8 @@
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="상태 식별자" id="8001216B-1349-43C2-D2D5-1BDB30A11F39">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:46:06 UTC</createdTime>
-<commentInRDBMS><![CDATA[상태 식별자]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>상태 식별자</commentInRDBMS>
 <generatorID>1761D6E0-A147-0262-915F-01DAB7A4D532</generatorID>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <engineerTo>
@@ -31,16 +31,15 @@
 <dataTypeSize>19</dataTypeSize>
 <ownDataTypeParameters>19,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="유저 식별자" id="2B128ACC-5953-8145-57B9-5EF2CBFDFDC0">
+<Attribute name="유저 식별자" id="29480619-F447-4A08-A12E-6E8BFCA1CB1E">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:46:06 UTC</createdTime>
-<commentInRDBMS><![CDATA[유저 식별자]]></commentInRDBMS>
-<generatorID>968326A5-77F7-45B3-2FE8-83A768866771</generatorID>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>유저 식별자</commentInRDBMS>
+<generatorID>7FED0BBA-2D9E-C805-876A-E4CB716516C9</generatorID>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <engineerTo>
 <item key="3F5C8C90-A854-9586-1442-B3C64B0520D2" value="true"/>
 </engineerTo>
-<referedAttribute>99B6E830-8137-F07F-FC44-7DAA4507AEBE</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -49,8 +48,8 @@
 </Attribute>
 <Attribute name="시" id="F37D2B2E-DA5E-F96B-CAA4-58F236EF5588">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:46:06 UTC</createdTime>
-<commentInRDBMS><![CDATA[시]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>시</commentInRDBMS>
 <generatorID>478B46CA-3E3C-AF2B-4BF9-894FFF92D0B7</generatorID>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <engineerTo>
@@ -64,8 +63,8 @@
 </Attribute>
 <Attribute name="도 / 군" id="573C72D9-69AA-F92A-2B32-E9094F263B92">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:46:06 UTC</createdTime>
-<commentInRDBMS><![CDATA[도 / 군]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>도 / 군</commentInRDBMS>
 <generatorID>623C4D7A-E472-0041-34EF-1FBCABA2015F</generatorID>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <engineerTo>
@@ -79,8 +78,8 @@
 </Attribute>
 <Attribute name="구" id="853B5AD1-7F2C-3F49-6186-C33C600E14E6">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:46:06 UTC</createdTime>
-<commentInRDBMS><![CDATA[구]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>구</commentInRDBMS>
 <generatorID>7A3AEBB3-08C8-500E-BA15-300A4DD8EAB0</generatorID>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <engineerTo>
@@ -94,8 +93,8 @@
 </Attribute>
 <Attribute name="누적 스코어" id="1E46D37F-E198-B393-11AC-3B9D8801DCCA">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:46:06 UTC</createdTime>
-<commentInRDBMS><![CDATA[누적 스코어]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>누적 스코어</commentInRDBMS>
 <generatorID>08ABFACB-279E-1DA3-C0D9-240D3C6907A2</generatorID>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <engineerTo>
@@ -109,9 +108,24 @@
 </Attribute>
 <Attribute name="월간 스코어" id="84509B1D-C356-517F-A930-9A5B2A101CF6">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:46:06 UTC</createdTime>
-<commentInRDBMS><![CDATA[월간 스코어]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>월간 스코어</commentInRDBMS>
 <generatorID>F258EB2C-E5E4-D3B0-16CE-301F562F8D9D</generatorID>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<engineerTo>
+<item key="3F5C8C90-A854-9586-1442-B3C64B0520D2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="분기 스코어" id="0E2C9CB0-5B16-44FC-8346-83B66FF40F09">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-30 04:30:00 UTC</createdTime>
+<commentInRDBMS>분기 스코어</commentInRDBMS>
+<generatorID>0F292D3D-FF9A-474D-8225-1A9C3536A28B</generatorID>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <engineerTo>
 <item key="3F5C8C90-A854-9586-1442-B3C64B0520D2" value="true"/>
@@ -124,8 +138,8 @@
 </Attribute>
 <Attribute name="현재 티어" id="5A2004A8-69D7-3F76-6907-0CB62ADFF8B1">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:46:06 UTC</createdTime>
-<commentInRDBMS><![CDATA[현재 티어]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>현재 티어</commentInRDBMS>
 <generatorID>FC9CBC26-BA49-9363-CAFC-F2B89059E8B6</generatorID>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <engineerTo>
@@ -139,8 +153,8 @@
 </Attribute>
 <Attribute name="현재 레벨" id="DC87D8D9-2341-A9BE-D818-F99EEC5D15B6">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:46:06 UTC</createdTime>
-<commentInRDBMS><![CDATA[현재 레벨]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>현재 레벨</commentInRDBMS>
 <generatorID>FD550361-2A94-0544-0D22-8E0AF1C766C5</generatorID>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <engineerTo>
@@ -154,8 +168,8 @@
 </Attribute>
 <Attribute name="현재 경험치" id="1FED4E66-A4B2-C78D-3A88-E7DBEB557CB8">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:46:06 UTC</createdTime>
-<commentInRDBMS><![CDATA[현재 경험치]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>현재 경험치</commentInRDBMS>
 <generatorID>158F046E-F43E-0B53-1EB4-DF93BF4BFE38</generatorID>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <engineerTo>
@@ -169,9 +183,9 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="E555E12F-602D-4BA5-578D-EDEA6F3C8060" name="PRIMARY">
+<identifier id="F12E36CC-062E-4162-82C8-B1B09EB8748E" name="PRIMARY">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:46:06 UTC</createdTime>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
 <generatorID>9E4DF3BB-FA82-6AFB-F88F-EB67E64BF69B</generatorID>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <engineerTo>
@@ -180,6 +194,18 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>8001216B-1349-43C2-D2D5-1BDB30A11F39</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="4159874A-2DED-40C8-9505-710A15D76096" name="uk stats users id">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<generatorID>3B60F3EF-A85B-78E5-86DB-E92DE6840A9C</generatorID>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<engineerTo>
+<item key="3F5C8C90-A854-9586-1442-B3C64B0520D2" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>29480619-F447-4A08-A12E-6E8BFCA1CB1E</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

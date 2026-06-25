@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="users_card_landmark" directorySegmentName="seg_0" id="165D1072-3AA2-4DF6-AA8C-0040501B7938">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<schemaObject>28DF9F4F-E1FF-5ADD-0AC5-AE851209928E</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit/>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="users_card_landmark_id" id="DFF39367-BC1E-4D92-8809-1845D99CA216">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="landmark_id" id="A547A69E-D72A-42E3-8AD8-7D5ECB650BC1">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="card_id" id="45CFCFB1-C296-408F-B855-4002CFFF21B3">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="users_id" id="8AE82716-C220-448A-8DFE-4DDB724E0E63">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="users_card_landmark_visited_at" id="EF783BF8-F473-49FA-B205-A90D6F8A6A39">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="users_card_landmark_count" id="54CD2C7D-2BE0-4030-9059-CE6334B24CE1">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PRIMARY" id="8CC3FE95-E884-49EE-B3BF-8E23D0782576">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

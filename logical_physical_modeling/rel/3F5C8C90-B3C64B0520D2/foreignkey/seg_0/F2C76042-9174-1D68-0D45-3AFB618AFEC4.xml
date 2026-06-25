@@ -1,10 +1,10 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F2C76042-9174-1D68-0D45-3AFB618AFEC4" containerWithKeyObject="8A1547F8-50B4-1915-39B3-C93323A857FC" localFKIndex="68EACCC5-E5CF-7BA7-33DF-9AA95DABF454" name="fk_level_policy_role_level_policy">
 <sourceConnName>triplog_mysql</sourceConnName>
 <sourceObjSchema>triplog_reverse</sourceObjSchema>
 <sourceObjName>fk_level_policy_role_level_policy</sourceObjName>
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <referredTableLongName>triplog_reverse.level_policy</referredTableLongName>
 <deleteRule>CASCADE</deleteRule>

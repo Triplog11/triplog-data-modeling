@@ -1,7 +1,7 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E22C54C7-9E20-4C6E-242A-58605DBB1AA9" name="활동 정책">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:46:06 UTC</createdTime>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
 <generatorID>CA04E08A-6BDA-A795-C26C-3764C219EC32</generatorID>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <engineerTo>
@@ -18,8 +18,8 @@
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="활동 정책 식별자" id="AF812FD8-3E6A-44DF-FB27-D0FF6E71D05D">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:46:06 UTC</createdTime>
-<commentInRDBMS><![CDATA[활동 정책 식별자]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>활동 정책 식별자</commentInRDBMS>
 <generatorID>FC42BC77-9681-0CAF-5CAF-8181BB249956</generatorID>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <engineerTo>
@@ -31,17 +31,16 @@
 <dataTypeSize>36</dataTypeSize>
 <ownDataTypeParameters>36,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="활동 정책 상위 policy_id" id="16F86D1E-7D81-ECAD-112D-1C031810E01B">
+<Attribute name="활동 정책 상위 policy_id" id="193F1C36-A4AD-4F6A-B65C-2846B79B1D90">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:46:06 UTC</createdTime>
-<commentInRDBMS><![CDATA[활동 정책 상위 policy_id]]></commentInRDBMS>
-<generatorID>600315F4-34A4-C175-C85E-32A8AFEA0CA4</generatorID>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>활동 정책 상위 policy_id</commentInRDBMS>
+<generatorID>E0AB22F0-4105-AF26-932D-05EA58EE6D9C</generatorID>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <engineerTo>
 <item key="3F5C8C90-A854-9586-1442-B3C64B0520D2" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<referedAttribute>AF812FD8-3E6A-44DF-FB27-D0FF6E71D05D</referedAttribute>
+<optional>true</optional>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -50,8 +49,8 @@
 </Attribute>
 <Attribute name="활동 정책 경험치" id="320D04D3-EFDA-86E7-2A82-DB70736E6BB7">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:46:06 UTC</createdTime>
-<commentInRDBMS><![CDATA[활동 정책 경험치]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>활동 정책 경험치</commentInRDBMS>
 <generatorID>056AD347-8BBF-501B-EED1-D6135DEB335D</generatorID>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <engineerTo>
@@ -65,8 +64,8 @@
 </Attribute>
 <Attribute name="활동 정책 점수" id="7C9B2E12-9C72-E66D-0C8D-97A011998071">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:46:06 UTC</createdTime>
-<commentInRDBMS><![CDATA[활동 정책 점수]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>활동 정책 점수</commentInRDBMS>
 <generatorID>A2F87AFC-3CAD-8834-2911-499A4798C8D0</generatorID>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <engineerTo>
@@ -80,8 +79,8 @@
 </Attribute>
 <Attribute name="활동 정책 설명" id="F034C2D2-9397-72EC-C2F6-29A1A81D183F">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:46:06 UTC</createdTime>
-<commentInRDBMS><![CDATA[활동 정책 설명]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>활동 정책 설명</commentInRDBMS>
 <generatorID>6861749D-1A09-2E4F-5066-19F68AB4898E</generatorID>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <engineerTo>
@@ -95,9 +94,9 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="8E045F63-4734-09E5-28A1-3A37F01E83A3" name="PRIMARY">
+<identifier id="8FAFC081-E476-437C-A988-271F27C8624E" name="PRIMARY">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:46:06 UTC</createdTime>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
 <generatorID>ADFAC7B8-A695-3A9E-E9DE-D5B4604EC2C1</generatorID>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <engineerTo>

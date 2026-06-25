@@ -1,10 +1,10 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6BDF988C-D337-9359-0D57-3FD30DAA72C4" schemaObject="28DF9F4F-E1FF-5ADD-0AC5-AE851209928E" name="notification_policy">
 <sourceConnName>triplog_mysql</sourceConnName>
 <sourceObjSchema>triplog_reverse</sourceObjSchema>
 <sourceObjName>notification_policy</sourceObjName>
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
@@ -15,8 +15,8 @@
 <sourceObjSchema>notification_policy</sourceObjSchema>
 <sourceObjName>notification_policy_id</sourceObjName>
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
-<commentInRDBMS><![CDATA[알림 정책 식별자]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>알림 정책 식별자</commentInRDBMS>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,8 +32,8 @@
 <sourceObjSchema>notification_policy</sourceObjSchema>
 <sourceObjName>notification_type</sourceObjName>
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
-<commentInRDBMS><![CDATA[알림 유형]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>알림 유형</commentInRDBMS>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -47,8 +47,8 @@
 <sourceObjSchema>notification_policy</sourceObjSchema>
 <sourceObjName>notification_policy_name</sourceObjName>
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
-<commentInRDBMS><![CDATA[알림 정책 이름]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>알림 정책 이름</commentInRDBMS>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -62,8 +62,8 @@
 <sourceObjSchema>notification_policy</sourceObjSchema>
 <sourceObjName>trigger_event</sourceObjName>
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
-<commentInRDBMS><![CDATA[트리거 이벤트]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>트리거 이벤트</commentInRDBMS>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -77,8 +77,8 @@
 <sourceObjSchema>notification_policy</sourceObjSchema>
 <sourceObjName>title_template</sourceObjName>
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
-<commentInRDBMS><![CDATA[제목 템플릿]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>제목 템플릿</commentInRDBMS>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -92,8 +92,8 @@
 <sourceObjSchema>notification_policy</sourceObjSchema>
 <sourceObjName>content_template</sourceObjName>
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
-<commentInRDBMS><![CDATA[내용 템플릿]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>내용 템플릿</commentInRDBMS>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -107,8 +107,8 @@
 <sourceObjSchema>notification_policy</sourceObjSchema>
 <sourceObjName>default_enable</sourceObjName>
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
-<commentInRDBMS><![CDATA[기본 수신 여부]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>기본 수신 여부</commentInRDBMS>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -122,8 +122,8 @@
 <sourceObjSchema>notification_policy</sourceObjSchema>
 <sourceObjName>is_active</sourceObjName>
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
-<commentInRDBMS><![CDATA[알림 정책 활성화 여부]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>알림 정책 활성화 여부</commentInRDBMS>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -134,12 +134,12 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="AC9671B7-C0EF-5620-4893-64DA1E33FB07" name="PRIMARYv11">
+<ind_PK_UK id="AC9671B7-C0EF-5620-4893-64DA1E33FB07" name="PRIMARY">
 <sourceConnName>triplog_mysql</sourceConnName>
 <sourceObjSchema>triplog_reverse</sourceObjSchema>
 <sourceObjName>PRIMARY</sourceObjName>
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
@@ -148,12 +148,12 @@
 <colUsage columnID="5CA59748-7126-EA81-E36A-3D354CCC3F22"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="F0F169F0-7016-3079-F609-05141B5026FC" name="uk_notification_policy_type">
+<ind_PK_UK id="6DE9FCBD-FDFF-41A5-A6A5-D123143E58B2" name="uk_notification_policy_notification_type">
 <sourceConnName>triplog_mysql</sourceConnName>
 <sourceObjSchema>triplog_reverse</sourceObjSchema>
-<sourceObjName>uk_notification_policy_type</sourceObjName>
+<sourceObjName>uk_notification_policy_notification_type</sourceObjName>
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <indexState>Unique Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>

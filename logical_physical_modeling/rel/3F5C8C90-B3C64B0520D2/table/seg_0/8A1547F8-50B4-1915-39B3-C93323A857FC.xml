@@ -1,10 +1,10 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8A1547F8-50B4-1915-39B3-C93323A857FC" schemaObject="28DF9F4F-E1FF-5ADD-0AC5-AE851209928E" name="level_policy_role">
 <sourceConnName>triplog_mysql</sourceConnName>
 <sourceObjSchema>triplog_reverse</sourceObjSchema>
 <sourceObjName>level_policy_role</sourceObjName>
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
@@ -15,8 +15,8 @@
 <sourceObjSchema>level_policy_role</sourceObjSchema>
 <sourceObjName>level_policy_role_id</sourceObjName>
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
-<commentInRDBMS><![CDATA[레벨 정책 권한 식별자]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>레벨 정책 권한 식별자</commentInRDBMS>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,8 +32,8 @@
 <sourceObjSchema>level_policy_role</sourceObjSchema>
 <sourceObjName>role_id</sourceObjName>
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
-<commentInRDBMS><![CDATA[권한 식별자]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>권한 식별자</commentInRDBMS>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -50,8 +50,8 @@
 <sourceObjSchema>level_policy_role</sourceObjSchema>
 <sourceObjName>level_policy_id</sourceObjName>
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
-<commentInRDBMS><![CDATA[레벨 식별자]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>레벨 식별자</commentInRDBMS>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -65,12 +65,12 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="A91069C6-38B5-5628-9EFB-C175333D7DF4" name="PRIMARYv14">
+<ind_PK_UK id="A91069C6-38B5-5628-9EFB-C175333D7DF4" name="PRIMARY">
 <sourceConnName>triplog_mysql</sourceConnName>
 <sourceObjSchema>triplog_reverse</sourceObjSchema>
 <sourceObjName>PRIMARY</sourceObjName>
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
@@ -79,50 +79,30 @@
 <colUsage columnID="027545F1-C14C-0EB4-0527-9B668791152F"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="8A5DEB89-31E3-9486-6DBE-C2C4705C09B9" name="uk_level_policy_role">
+<ind_PK_UK id="7F61FD2C-D174-3A00-1A85-B96F60EAF6B7" name="fk_level_policy_role_role">
 <sourceConnName>triplog_mysql</sourceConnName>
 <sourceObjSchema>triplog_reverse</sourceObjSchema>
-<sourceObjName>uk_level_policy_role</sourceObjName>
+<sourceObjName>fk_level_policy_role_role</sourceObjName>
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
-<indexState>Unique Constraint</indexState>
+<indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="FB191014-FA06-D225-D031-C4FDFCFD20C5"/>
-<colUsage columnID="FFAC54F1-B82A-2AF0-F5B9-4A705642A86E"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="AF241D38-73FE-00A2-E23A-31F56CD25AF4" name="fk_level_policy_role_level_policy">
+<ind_PK_UK id="68EACCC5-E5CF-7BA7-33DF-9AA95DABF454" name="fk_level_policy_role_level_policy">
 <sourceConnName>triplog_mysql</sourceConnName>
 <sourceObjSchema>triplog_reverse</sourceObjSchema>
 <sourceObjName>fk_level_policy_role_level_policy</sourceObjName>
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
-<ownerDesignName>logical_physical_modeling</ownerDesignName>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="FFAC54F1-B82A-2AF0-F5B9-4A705642A86E"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="68EACCC5-E5CF-7BA7-33DF-9AA95DABF454" name="fk_level_policy_role_level_policy">
-<createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="FFAC54F1-B82A-2AF0-F5B9-4A705642A86E"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="7F61FD2C-D174-3A00-1A85-B96F60EAF6B7" name="fk_level_policy_role_role">
-<createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
-<ownerDesignName>logical_physical_modeling</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="FB191014-FA06-D225-D031-C4FDFCFD20C5"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

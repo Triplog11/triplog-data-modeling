@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4E0B7B2B-E4AB-4B2B-B4FD-A05DD5490446" schemaObject="28DF9F4F-E1FF-5ADD-0AC5-AE851209928E" name="users_region">
+<sourceConnName>triplog_mysql</sourceConnName>
+<sourceObjSchema>triplog_reverse</sourceObjSchema>
+<sourceObjName>users_region</sourceObjName>
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="users_region_id" id="A4719CFB-3C66-4273-8D07-115FB84B371E">
+<sourceConnName>triplog_mysql</sourceConnName>
+<sourceObjSchema>users_region</sourceObjSchema>
+<sourceObjName>users_region_id</sourceObjName>
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>유저 지역 식별자</commentInRDBMS>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<dataTypeSize>19</dataTypeSize>
+<ownDataTypeParameters>19,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="region_id" id="374CD2AE-F7BB-4DB5-B805-14BD8C6C03E9">
+<sourceConnName>triplog_mysql</sourceConnName>
+<sourceObjSchema>users_region</sourceObjSchema>
+<sourceObjName>region_id</sourceObjName>
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>지역 식별자</commentInRDBMS>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<dataTypeSize>19</dataTypeSize>
+<ownDataTypeParameters>19,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6089192E-74EC-419D-A29F-0296F8FE0616" referredColumn="D6E130A6-2707-56F9-27BE-D9934F72028E"/>
+</associations>
+</Column>
+<Column name="users_id" id="B5815690-A819-44B8-9FAF-83C6B6BD0CA7">
+<sourceConnName>triplog_mysql</sourceConnName>
+<sourceObjSchema>users_region</sourceObjSchema>
+<sourceObjName>users_id</sourceObjName>
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>유저 식별자</commentInRDBMS>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>36</dataTypeSize>
+<ownDataTypeParameters>36,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DAB6B4B7-8F7E-4764-9970-F12BB771E913" referredColumn="757AF12A-CC41-BFDC-EFE8-A069D533F3AD"/>
+</associations>
+</Column>
+<Column name="users_region_visited_at" id="74F0D2CD-96E8-46FF-871F-F14A74DA16F0">
+<sourceConnName>triplog_mysql</sourceConnName>
+<sourceObjSchema>users_region</sourceObjSchema>
+<sourceObjName>users_region_visited_at</sourceObjName>
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>방문일자</commentInRDBMS>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="users_region_visited_count" id="CF30E38A-3220-40E0-9039-26A21B7464FC">
+<sourceConnName>triplog_mysql</sourceConnName>
+<sourceObjSchema>users_region</sourceObjSchema>
+<sourceObjName>users_region_visited_count</sourceObjName>
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>방문 횟수</commentInRDBMS>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FF856FC3-AB2A-4329-A724-E44130431976" name="PRIMARY">
+<sourceConnName>triplog_mysql</sourceConnName>
+<sourceObjSchema>triplog_reverse</sourceObjSchema>
+<sourceObjName>PRIMARY</sourceObjName>
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A4719CFB-3C66-4273-8D07-115FB84B371E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A624F955-E9D8-4E71-B0DD-E99EF8DBB509" name="fk_users_region_region">
+<sourceConnName>triplog_mysql</sourceConnName>
+<sourceObjSchema>triplog_reverse</sourceObjSchema>
+<sourceObjName>fk_users_region_region</sourceObjName>
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="374CD2AE-F7BB-4DB5-B805-14BD8C6C03E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BFACEFC8-D11C-4FF0-AEA9-580A763A1A60" name="fk_users_region_users">
+<sourceConnName>triplog_mysql</sourceConnName>
+<sourceObjSchema>triplog_reverse</sourceObjSchema>
+<sourceObjName>fk_users_region_users</sourceObjName>
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5815690-A819-44B8-9FAF-83C6B6BD0CA7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

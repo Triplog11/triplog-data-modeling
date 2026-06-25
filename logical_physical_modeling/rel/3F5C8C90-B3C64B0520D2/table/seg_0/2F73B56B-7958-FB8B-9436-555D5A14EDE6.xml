@@ -1,10 +1,10 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2F73B56B-7958-FB8B-9436-555D5A14EDE6" schemaObject="28DF9F4F-E1FF-5ADD-0AC5-AE851209928E" name="event">
 <sourceConnName>triplog_mysql</sourceConnName>
 <sourceObjSchema>triplog_reverse</sourceObjSchema>
 <sourceObjName>event</sourceObjName>
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
@@ -15,8 +15,8 @@
 <sourceObjSchema>event</sourceObjSchema>
 <sourceObjName>event_id</sourceObjName>
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
-<commentInRDBMS><![CDATA[이벤트 식별자]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>이벤트 식별자</commentInRDBMS>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,8 +32,8 @@
 <sourceObjSchema>event</sourceObjSchema>
 <sourceObjName>event_start</sourceObjName>
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
-<commentInRDBMS><![CDATA[이벤트 시작일자]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>이벤트 시작일자</commentInRDBMS>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -47,8 +47,8 @@
 <sourceObjSchema>event</sourceObjSchema>
 <sourceObjName>event_end</sourceObjName>
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
-<commentInRDBMS><![CDATA[이벤트 종료일자]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>이벤트 종료일자</commentInRDBMS>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -62,8 +62,8 @@
 <sourceObjSchema>event</sourceObjSchema>
 <sourceObjName>event_title</sourceObjName>
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
-<commentInRDBMS><![CDATA[이벤트 제목]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>이벤트 제목</commentInRDBMS>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -77,8 +77,8 @@
 <sourceObjSchema>event</sourceObjSchema>
 <sourceObjName>event_content</sourceObjName>
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
-<commentInRDBMS><![CDATA[이벤트 내용]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>이벤트 내용</commentInRDBMS>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -92,8 +92,8 @@
 <sourceObjSchema>event</sourceObjSchema>
 <sourceObjName>event_image_url1</sourceObjName>
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
-<commentInRDBMS><![CDATA[이벤트 이미지 url 1]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>이벤트 이미지 url 1</commentInRDBMS>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -107,8 +107,8 @@
 <sourceObjSchema>event</sourceObjSchema>
 <sourceObjName>event_image_url2</sourceObjName>
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
-<commentInRDBMS><![CDATA[이벤트 이미지 url 2]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>이벤트 이미지 url 2</commentInRDBMS>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -119,12 +119,12 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="0F33B7E2-0CDA-9EC9-A643-600FB2711D13" name="PRIMARYv3">
+<ind_PK_UK id="0F33B7E2-0CDA-9EC9-A643-600FB2711D13" name="PRIMARY">
 <sourceConnName>triplog_mysql</sourceConnName>
 <sourceObjSchema>triplog_reverse</sourceObjSchema>
 <sourceObjName>PRIMARY</sourceObjName>
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>

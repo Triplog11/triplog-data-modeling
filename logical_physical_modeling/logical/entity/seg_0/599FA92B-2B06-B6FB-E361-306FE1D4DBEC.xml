@@ -1,7 +1,7 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="599FA92B-2B06-B6FB-E361-306FE1D4DBEC" name="북마크">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:46:06 UTC</createdTime>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
 <generatorID>E00F7536-A869-0C14-C196-CFF5EA29C17C</generatorID>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <engineerTo>
@@ -18,8 +18,8 @@
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="북마크 식별자" id="9EFCF95A-DA6C-FD3C-9C4C-C24D46F605DE">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:46:06 UTC</createdTime>
-<commentInRDBMS><![CDATA[북마크 식별자]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>북마크 식별자</commentInRDBMS>
 <generatorID>89E9FCA7-6E13-CD78-BF0F-CA1F370CD7A3</generatorID>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <engineerTo>
@@ -31,16 +31,15 @@
 <dataTypeSize>19</dataTypeSize>
 <ownDataTypeParameters>19,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="유저 식별자" id="E30FF275-08F5-3246-E3AC-9D75766970AD">
+<Attribute name="유저 식별자" id="5023AD5E-67A9-4536-B929-0CA0DD142D05">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:46:06 UTC</createdTime>
-<commentInRDBMS><![CDATA[유저 식별자]]></commentInRDBMS>
-<generatorID>B0127959-F35D-67EE-3122-B22DA1EA2C97</generatorID>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>유저 식별자</commentInRDBMS>
+<generatorID>EC5C069D-C5D4-97F9-31D2-6229DFC87082</generatorID>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <engineerTo>
 <item key="3F5C8C90-A854-9586-1442-B3C64B0520D2" value="true"/>
 </engineerTo>
-<referedAttribute>99B6E830-8137-F07F-FC44-7DAA4507AEBE</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -49,8 +48,8 @@
 </Attribute>
 <Attribute name="북마크 타입" id="010B0D6B-941B-81E0-F97C-4CB1CA63D730">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:46:06 UTC</createdTime>
-<commentInRDBMS><![CDATA[북마크 타입]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>북마크 타입</commentInRDBMS>
 <generatorID>38C9663D-23B3-523F-BA6F-273873A990BB</generatorID>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <engineerTo>
@@ -59,13 +58,13 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>8</dataTypeSize>
-<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="북마크 타입 식별자" id="B0F5DF0F-95A9-795E-4971-426C3688095B">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:46:06 UTC</createdTime>
-<commentInRDBMS><![CDATA[북마크 타입 식별자]]></commentInRDBMS>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>북마크 타입 식별자</commentInRDBMS>
 <generatorID>2AD907E6-CB1F-C124-E8E5-3CB846AE730A</generatorID>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <engineerTo>
@@ -79,9 +78,9 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="763D4AAC-A492-AA17-7C08-6CF396F36FCC" name="PRIMARY">
+<identifier id="AF941187-AD9A-4E2B-9F23-CE422CCC756B" name="PRIMARY">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:46:06 UTC</createdTime>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
 <generatorID>E472A140-6A07-7422-AAEA-D0BACC127B39</generatorID>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <engineerTo>
@@ -90,20 +89,6 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>9EFCF95A-DA6C-FD3C-9C4C-C24D46F605DE</attributeRef>
-</usedAttributes>
-</identifier>
-<identifier id="012D1C70-C60A-3BE8-385B-6EDA2E19C4B9" name="uk bookmark users target">
-<createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:46:06 UTC</createdTime>
-<generatorID>5E21EC20-5867-B011-92EE-9EEAFE58071B</generatorID>
-<ownerDesignName>logical_physical_modeling</ownerDesignName>
-<engineerTo>
-<item key="3F5C8C90-A854-9586-1442-B3C64B0520D2" value="true"/>
-</engineerTo>
-<usedAttributes>
-<attributeRef>E30FF275-08F5-3246-E3AC-9D75766970AD</attributeRef>
-<attributeRef>010B0D6B-941B-81E0-F97C-4CB1CA63D730</attributeRef>
-<attributeRef>B0F5DF0F-95A9-795E-4971-426C3688095B</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

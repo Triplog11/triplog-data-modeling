@@ -1,68 +1,68 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="notification_policy" directorySegmentName="seg_0" id="6BDF988C-D337-9359-0D57-3FD30DAA72C4">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <schemaObject>28DF9F4F-E1FF-5ADD-0AC5-AE851209928E</schemaObject>
 <logging>YES</logging>
 <partitionedRowMovement>DISABLE</partitionedRowMovement>
 <temporaryChanged>false</temporaryChanged>
 <accessDriverType>oracle_loader</accessDriverType>
-<rejectLimit></rejectLimit>
+<rejectLimit/>
 <columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
-<ColumnProxy name="trigger_event" id="00EE873F-C1D4-D64C-14A1-C29FCEC3E330">
-<createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
-<ownerDesignName>logical_physical_modeling</ownerDesignName>
-</ColumnProxy>
-<ColumnProxy name="content_template" id="24682F33-5CB6-5646-15F7-5B7AFBD6E66F">
-<createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
-<ownerDesignName>logical_physical_modeling</ownerDesignName>
-</ColumnProxy>
-<ColumnProxy name="is_active" id="2B9AAAE0-D007-3F54-509E-25F74C3D5800">
-<createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
-<ownerDesignName>logical_physical_modeling</ownerDesignName>
-</ColumnProxy>
-<ColumnProxy name="title_template" id="3DF7452F-6647-2279-81D7-A814C0A96504">
-<createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
-<ownerDesignName>logical_physical_modeling</ownerDesignName>
-</ColumnProxy>
-<ColumnProxy name="notification_policy_name" id="41EC0485-5BB3-DBB3-35C9-9B86F6887747">
-<createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
-<ownerDesignName>logical_physical_modeling</ownerDesignName>
-</ColumnProxy>
 <ColumnProxy name="notification_policy_id" id="5CA59748-7126-EA81-E36A-3D354CCC3F22">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 </ColumnProxy>
 <ColumnProxy name="notification_type" id="6A2A16DB-81C3-A261-1019-3DD34D2D1990">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="notification_policy_name" id="41EC0485-5BB3-DBB3-35C9-9B86F6887747">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="trigger_event" id="00EE873F-C1D4-D64C-14A1-C29FCEC3E330">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="title_template" id="3DF7452F-6647-2279-81D7-A814C0A96504">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="content_template" id="24682F33-5CB6-5646-15F7-5B7AFBD6E66F">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 </ColumnProxy>
 <ColumnProxy name="default_enable" id="BA0BA220-D659-CB2B-0A51-F3EB223AA393">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="is_active" id="2B9AAAE0-D007-3F54-509E-25F74C3D5800">
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 </ColumnProxy>
 </columnProxies>
 <primaryKeys>
-<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PRIMARYv11" id="AC9671B7-C0EF-5620-4893-64DA1E33FB07">
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PRIMARY" id="AC9671B7-C0EF-5620-4893-64DA1E33FB07">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <indexSort>SORTED</indexSort>
 </PrimaryKey>
 </primaryKeys>
 <uniqueKeys>
-<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="uk_notification_policy_type" id="F0F169F0-7016-3079-F609-05141B5026FC">
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="uk_notification_policy_notification_type" id="6DE9FCBD-FDFF-41A5-A6A5-D123143E58B2">
 <createdBy>100gu</createdBy>
-<createdTime>2026-06-16 11:44:00 UTC</createdTime>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
 <ownerDesignName>logical_physical_modeling</ownerDesignName>
 <indexSort>SORTED</indexSort>
 </UniqueKey>

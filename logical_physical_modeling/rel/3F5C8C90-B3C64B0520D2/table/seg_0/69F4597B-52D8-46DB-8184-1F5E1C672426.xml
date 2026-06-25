@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="69F4597B-52D8-46DB-8184-1F5E1C672426" schemaObject="28DF9F4F-E1FF-5ADD-0AC5-AE851209928E" name="users_level_log">
+<sourceConnName>triplog_mysql</sourceConnName>
+<sourceObjSchema>triplog_reverse</sourceObjSchema>
+<sourceObjName>users_level_log</sourceObjName>
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="level_log_id" id="5B98B0A4-C5A3-4DAA-BDB3-1969DE6864AA">
+<sourceConnName>triplog_mysql</sourceConnName>
+<sourceObjSchema>users_level_log</sourceObjSchema>
+<sourceObjName>level_log_id</sourceObjName>
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>레벨 로그 식별자</commentInRDBMS>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<dataTypeSize>19</dataTypeSize>
+<ownDataTypeParameters>19,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="users_id" id="EAED06E2-E7E3-47EF-8AA2-50F493386E85">
+<sourceConnName>triplog_mysql</sourceConnName>
+<sourceObjSchema>users_level_log</sourceObjSchema>
+<sourceObjName>users_id</sourceObjName>
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>유저 식별자</commentInRDBMS>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>36</dataTypeSize>
+<ownDataTypeParameters>36,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A75AB499-B779-47E6-80F9-4415923D2294" referredColumn="757AF12A-CC41-BFDC-EFE8-A069D533F3AD"/>
+</associations>
+</Column>
+<Column name="level_log_created_at" id="CC6A66A3-E05D-4E97-9C1D-C2107154FF3C">
+<sourceConnName>triplog_mysql</sourceConnName>
+<sourceObjSchema>users_level_log</sourceObjSchema>
+<sourceObjName>level_log_created_at</sourceObjName>
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>레벨 로그 생성일자</commentInRDBMS>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="users_level_log_gain_xp" id="C71D06DB-928E-4941-8637-A801E7D1EB8F">
+<sourceConnName>triplog_mysql</sourceConnName>
+<sourceObjSchema>users_level_log</sourceObjSchema>
+<sourceObjName>users_level_log_gain_xp</sourceObjName>
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>레벨 로그 받은 경험치</commentInRDBMS>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="users_level_content" id="553BAEA2-CC0C-4C76-AEAD-383FA4BF9DC6">
+<sourceConnName>triplog_mysql</sourceConnName>
+<sourceObjSchema>users_level_log</sourceObjSchema>
+<sourceObjName>users_level_content</sourceObjName>
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<commentInRDBMS>레벨 로그 내용</commentInRDBMS>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0709EB68-12E8-41A7-8BFD-91E3FB17EE71" name="PRIMARY">
+<sourceConnName>triplog_mysql</sourceConnName>
+<sourceObjSchema>triplog_reverse</sourceObjSchema>
+<sourceObjName>PRIMARY</sourceObjName>
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B98B0A4-C5A3-4DAA-BDB3-1969DE6864AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1D8C74CB-2E0F-4669-B2C4-7AF75BBE8029" name="fk_users_level_log_users">
+<sourceConnName>triplog_mysql</sourceConnName>
+<sourceObjSchema>triplog_reverse</sourceObjSchema>
+<sourceObjName>fk_users_level_log_users</sourceObjName>
+<createdBy>100gu</createdBy>
+<createdTime>2026-06-25 03:05:00 UTC</createdTime>
+<ownerDesignName>logical_physical_modeling</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EAED06E2-E7E3-47EF-8AA2-50F493386E85"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
